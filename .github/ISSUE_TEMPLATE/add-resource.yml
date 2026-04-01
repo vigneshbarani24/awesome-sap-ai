@@ -1,0 +1,85 @@
+name: Add Resource
+description: Suggest a new resource to add to Awesome SAP AI
+title: "[Add]: "
+labels: ["new-resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a resource! Please fill in the details below.
+
+  - type: input
+    id: name
+    attributes:
+      label: Resource Name
+      description: The name of the resource (repo, tool, tutorial, blog post, etc.)
+      placeholder: e.g., SAP-samples/btp-cap-genai-rag
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link to the resource
+      placeholder: https://github.com/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which section should this resource be added to?
+      options:
+        - Official SAP AI Tools & SDKs
+        - MCP Servers for SAP
+        - AI Skills & Prompts for SAP
+        - RAG & Knowledge Retrieval
+        - AI Agents for SAP
+        - ABAP + AI
+        - Tutorials & Crash Courses
+        - SAP Community Content
+        - Adjacent Tools
+        - Learning Path
+        - Other / Not Sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief one-line description of the resource
+      placeholder: What does this resource do? Why is it useful?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource Type
+      options:
+        - GitHub Repository
+        - Blog Post / Article
+        - Tutorial / Course
+        - YouTube Video / Playlist
+        - Documentation
+        - Tool / Service
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: The resource is publicly accessible
+          required: true
+        - label: The link works and is not broken
+          required: true
+        - label: This resource is not already listed in the README
+          required: true
+        - label: The resource is related to both AI and SAP
+          required: true
