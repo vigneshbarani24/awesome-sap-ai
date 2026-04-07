@@ -47,6 +47,7 @@
 - [ABAP + AI](#-abap--ai)
 - [Tutorials & Crash Courses](#-tutorials--crash-courses)
 - [SAP Community Content](#-sap-community-content)
+- [People to Follow](#-people-to-follow)
 - [Adjacent Tools](#-adjacent-tools)
 - [Zero to Hero](#-zero-to-hero)
 - [Contributing](#contributing)
@@ -219,13 +220,43 @@
 
 *   [SAP Developers](https://www.youtube.com/@sapdevs) — Official SAP Developers channel with AI, GenAI, and MCP content
 
-### Notable Authors & Contributors
+---
 
-*   **Marian Zeis** ([marianfoo](https://github.com/marianfoo)) — SAP MCP server ecosystem, ABAP LLM benchmarks, mcp-sap-docs
-*   **Eddie** ([secondsky](https://github.com/secondsky)) — 35 Claude Code skills for SAP, MCP servers for SAP BDC and Analytics Cloud
-*   **Alice Vinogradova** ([oisee](https://github.com/oisee)) — Vibing Steampunk (ADT-to-MCP), Universal OData-to-MCP bridge
-*   **Warren** ([weiserman](https://github.com/weiserman)) — RAP skills for Claude Code across BTP, S/4HANA Cloud, and on-premise
-*   **Wouter Lemaire** ([lemaiwo](https://github.com/lemaiwo)) — OData MCP proxy, BTP OData-to-MCP server
+## People to Follow
+
+The builders, advocates, and thought leaders pushing AI + SAP forward. Follow them to stay on the cutting edge.
+
+### Community Builders (Open Source)
+
+| Who | GitHub | Known For |
+|---|---|---|
+| **Marian Zeis** | [marianfoo](https://github.com/marianfoo) | mcp-sap-docs, mcp-sap-notes, ABAP LLM Benchmarks, SAP AI MCP Servers list |
+| **Alice Vinogradova** | [oisee](https://github.com/oisee) | Vibing Steampunk (ADT-to-MCP), Universal OData-to-MCP bridge, ZLLM |
+| **Eddie** | [secondsky](https://github.com/secondsky) | 35 Claude Code skills for SAP, MCP servers for BDC and Analytics Cloud |
+| **Warren** | [weiserman](https://github.com/weiserman) | RAP skills for Claude Code across BTP, S/4HANA Cloud, and on-premise |
+| **Wouter Lemaire** | [lemaiwo](https://github.com/lemaiwo) | odata-mcp-proxy, BTP OData-to-MCP server |
+| **Mario Andreschak** | [mario-andreschak](https://github.com/mario-andreschak) | mcp-abap-adt, mcp-sap-gui |
+| **Michal Majer** | [michal-majer](https://github.com/michal-majer) | SAP CAP + Fiori multi-agent orchestrator |
+| **Tobias Hofmann** | [tobiashofmann](https://github.com/tobiashofmann) | SAP Dev Tech Radar, "It's Full of Stars" blog, critical SAP MCP analysis |
+
+### SAP Developer Advocates & Leaders
+
+| Who | LinkedIn | Focus |
+|---|---|---|
+| **Thomas Jung** | [thomasjungsap](https://www.linkedin.com/in/thomasjungsap/) | Head of SAP Developer Advocacy, SAP Developers YouTube |
+| **DJ Adams** | [djadams](https://www.linkedin.com/in/djadams/) | Developer Advocate, CAP, Hands-on SAP Dev streams ([qmacro.org](https://qmacro.org)) |
+| **Antonio Maradiaga** | [ajmaradiaga](https://www.linkedin.com/in/ajmaradiaga/) | Developer Advocate, Integration Suite, AI CodeJams |
+| **Rich Heilman** | [rich-heilman](https://www.linkedin.com/in/rich-heilman/) | Developer Advocate, ABAP Cloud, RAP |
+| **Simona Marincei** | — | Head of AI - SAP ABAP Platform, driving Joule + ABAP AI strategy |
+| **Alexander Rother** | — | VP & Head of ABAP Platform Product Management |
+
+### Voices to Watch on SAP Community
+
+| Who | Contribution |
+|---|---|
+| **Tobias Hofmann** | [The SAP MCP Dilemma](https://www.itsfullofstars.de/2026/03/the-sap-mcp-dilemma/) — honest, critical SAP AI analysis |
+| **Marian Zeis** | [ABAP LLM Benchmark Blog](https://blog.zeis.de/posts/2026-02-09-abap-llm-benchmark/) — data-driven ABAP AI insights |
+| **SAP Tech Bites** | [GenerativeAI-with-SAP-ABAP](https://saptechbites.github.io/GenerativeAI-with-SAP-ABAP/) — practical GenAI + ABAP patterns |
 
 ---
 

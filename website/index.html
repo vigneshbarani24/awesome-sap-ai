@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome SAP AI — Zero to Hero Roadmap</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-badge">OPEN SOURCE</div>
+      <h1 class="hero-title">
+        <span class="hero-title-line">Awesome</span>
+        <span class="hero-title-line gradient-text">SAP AI</span>
+      </h1>
+      <p class="hero-subtitle">The complete open-source directory of AI in SAP.<br>From zero knowledge to production agents — your interactive roadmap.</p>
+      <div class="hero-cta">
+        <a href="https://github.com/vigneshbarani24/awesome-sap-ai" class="btn btn-primary" target="_blank">Star on GitHub</a>
+        <a href="#roadmap" class="btn btn-secondary">Start the Journey</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-count="80">0</span>
+          <span class="stat-label">Resources</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="18">0</span>
+          <span class="stat-label">MCP Servers</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="7">0</span>
+          <span class="stat-label">Levels</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ============ ROADMAP ============ -->
+  <section id="roadmap" class="roadmap">
+    <div class="roadmap-header">
+      <h2 class="section-title">Zero to Hero</h2>
+      <p class="section-subtitle">Your interactive roadmap to mastering AI in SAP</p>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="progress-track">
+      <div class="progress-fill" id="progressFill"></div>
+      <div class="progress-labels">
+        <span data-level="0">Prerequisites</span>
+        <span data-level="1">Fundamentals</span>
+        <span data-level="2">Environment</span>
+        <span data-level="3">First App</span>
+        <span data-level="4">Supercharge</span>
+        <span data-level="5">Agents</span>
+        <span data-level="6">Pro</span>
+      </div>
+    </div>
+
+    <!-- LEVEL 0 -->
+    <div class="level" data-level="0">
+      <div class="level-marker">
+        <div class="level-number">0</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-tag">GETTING STARTED</div>
+        <h3 class="level-title">Prerequisites</h3>
+        <p class="level-desc">Before you start, make sure you have these in place.</p>
+        <div class="cards">
+          <div class="card">
+            <div class="card-icon">&#9729;</div>
+            <h4>SAP BTP Account</h4>
+            <p>Trial or enterprise — needed for AI Core, HANA Cloud</p>
+            <a href="https://developers.sap.com/tutorials/hcp-create-trial-account.html" target="_blank" class="card-link">Get Trial Account &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#9881;</div>
+            <h4>AI Core Access</h4>
+            <p>Provision via BTP cockpit or automate with Terraform</p>
+            <a href="https://github.com/SAP-samples/btp-genai-starter-kit" target="_blank" class="card-link">BTP GenAI Starter Kit &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#9998;</div>
+            <h4>IDE + AI Assistant</h4>
+            <p>VS Code, Cursor, or any MCP-compatible editor with Claude Code, Copilot, or similar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEVEL 1 -->
+    <div class="level" data-level="1">
+      <div class="level-marker">
+        <div class="level-number">1</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-tag">FOUNDATIONS</div>
+        <h3 class="level-title">Learn the Fundamentals</h3>
+        <p class="level-desc">Understand what AI on SAP actually means — the platform, the tools, the terminology.</p>
+        <div class="cards">
+          <div class="card card-featured">
+            <div class="card-icon">&#127891;</div>
+            <h4>Generative AI at SAP</h4>
+            <p>Free openSAP course — 4.5 stars, 33K+ completions</p>
+            <a href="https://open.sap.com/courses/genai1" target="_blank" class="card-link">Start Free Course &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128218;</div>
+            <h4>SAP AI Core Docs</h4>
+            <p>Central service for deploying and managing AI models on BTP</p>
+            <a href="https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core" target="_blank" class="card-link">Read Docs &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128736;</div>
+            <h4>SAP AI Learning Hub</h4>
+            <p>Structured learning paths, certifications, and courses</p>
+            <a href="https://learning.sap.com/artificial-intelligence" target="_blank" class="card-link">Explore Paths &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEVEL 2 -->
+    <div class="level" data-level="2">
+      <div class="level-marker">
+        <div class="level-number">2</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-tag">HANDS ON</div>
+        <h3 class="level-title">Set Up Your AI Dev Environment</h3>
+        <p class="level-desc">Get your hands dirty. Provision services. Connect MCP servers.</p>
+        <div class="cards">
+          <div class="card">
+            <div class="card-icon">&#128268;</div>
+            <h4>CAP MCP Server</h4>
+            <p>AI-assisted CAP development with model introspection</p>
+            <code>npx -y @cap-js/mcp-server</code>
+            <a href="https://github.com/cap-js/mcp-server" target="_blank" class="card-link">View Repo &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#127912;</div>
+            <h4>Fiori MCP Server</h4>
+            <p>Generate and adapt SAP Fiori elements applications</p>
+            <code>npx -y @sap-ux/fiori-mcp-server</code>
+            <a href="https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server" target="_blank" class="card-link">View Repo &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128444;</div>
+            <h4>UI5 MCP Server</h4>
+            <p>Scaffolding, linting, API docs, and guidelines</p>
+            <code>npx -y @ui5/mcp-server</code>
+            <a href="https://github.com/UI5/mcp-server" target="_blank" class="card-link">View Repo &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128269;</div>
+            <h4>SAP Docs MCP Server</h4>
+            <p>Search 50,000+ SAP docs with BM25 + semantic search</p>
+            <a href="https://github.com/marianfoo/mcp-sap-docs" target="_blank" class="card-link">View Repo &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEVEL 3 -->
+    <div class="level" data-level="3">
+      <div class="level-marker">
+        <div class="level-number">3</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-tag">BUILD</div>
+        <h3 class="level-title">Build Your First AI-Powered SAP App</h3>
+        <p class="level-desc">Follow guided workshops. Get a working app running.</p>
+        <div class="cards">
+          <div class="card card-featured">
+            <div class="card-icon">&#128187;</div>
+            <h4>Generative AI CodeJam</h4>
+            <p>Hands-on RAG, embeddings, and Python SDK on AI Core</p>
+            <a href="https://github.com/SAP-samples/generative-ai-codejam" target="_blank" class="card-link">Start CodeJam &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#9889;</div>
+            <h4>CAP + LLM CodeJam</h4>
+            <p>Integrate GenAI Hub into a CAP application</p>
+            <a href="https://github.com/SAP-samples/codejam-cap-llm" target="_blank" class="card-link">Start CodeJam &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128300;</div>
+            <h4>RAG with HANA Vector Engine</h4>
+            <p>Vector embeddings + similarity search in CAP</p>
+            <a href="https://github.com/SAP-samples/cap-ai-vector-engine-sample" target="_blank" class="card-link">View Sample &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEVEL 4 -->
+    <div class="level" data-level="4">
+      <div class="level-marker">
+        <div class="level-number">4</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-tag">ACCELERATE</div>
+        <h3 class="level-title">Supercharge Your Dev Workflow</h3>
+        <p class="level-desc">Use AI skills and MCP servers to 10x your daily SAP development.</p>
+        <div class="cards">
+          <div class="card card-featured">
+            <div class="card-icon">&#128640;</div>
+            <h4>SAP Skills for Claude Code</h4>
+            <p>35 production-ready skills — BTP, CAP, Fiori, ABAP, HANA</p>
+            <a href="https://github.com/secondsky/sap-skills" target="_blank" class="card-link">Install Skills &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#127928;</div>
+            <h4>Vibe Code with Cline</h4>
+            <p>Build CAP + Fiori apps conversationally</p>
+            <a href="https://github.com/SAP-samples/cloud-cap-vibe-with-cline" target="_blank" class="card-link">Try It &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#9874;</div>
+            <h4>Vibing Steampunk</h4>
+            <p>Vibe code in ABAP via ADT — read, write, debug, deploy</p>
+            <a href="https://github.com/oisee/vibing-steampunk" target="_blank" class="card-link">Set Up &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128221;</div>
+            <h4>RAP Skills</h4>
+            <p>Claude Code skills for SAP RAP Business Objects</p>
+            <a href="https://github.com/weiserman/rap-skills" target="_blank" class="card-link">View Skills &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEVEL 5 -->
+    <div class="level" data-level="5">
+      <div class="level-marker">
+        <div class="level-number">5</div>
+        <div class="level-line"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-tag">ADVANCED</div>
+        <h3 class="level-title">Build AI Agents</h3>
+        <p class="level-desc">Move from AI-assisted development to building AI agents that automate business processes.</p>
+        <div class="cards">
+          <div class="card card-featured">
+            <div class="card-icon">&#129302;</div>
+            <h4>BTP Agentic AI Use Cases</h4>
+            <p>Real-world agent patterns — Joule Studio, Cloud SDK for AI</p>
+            <a href="https://github.com/SAP-samples/btp-agentic-ai-use-cases" target="_blank" class="card-link">Explore Use Cases &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128295;</div>
+            <h4>SAP Cloud SDK for AI</h4>
+            <p>Pro-code agent development in JS/TS or Java</p>
+            <a href="https://github.com/SAP/ai-sdk-js" target="_blank" class="card-link">JS SDK &rarr;</a>
+            <a href="https://github.com/SAP/ai-sdk-java" target="_blank" class="card-link">Java SDK &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128216;</div>
+            <h4>BTP AI Best Practices</h4>
+            <p>Production patterns in TypeScript, Python, Java, and CAP</p>
+            <a href="https://github.com/SAP-samples/sap-btp-ai-best-practices" target="_blank" class="card-link">Read Practices &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEVEL 6 -->
+    <div class="level" data-level="6">
+      <div class="level-marker">
+        <div class="level-number">6</div>
+        <div class="level-line last"></div>
+      </div>
+      <div class="level-content">
+        <div class="level-tag tag-gold">MASTERY</div>
+        <h3 class="level-title">Go Pro</h3>
+        <p class="level-desc">Get certified. Build your own tools. Contribute back to the ecosystem.</p>
+        <div class="cards">
+          <div class="card card-gold">
+            <div class="card-icon">&#127942;</div>
+            <h4>SAP GenAI Developer Cert</h4>
+            <p>Official certification for SAP Business AI capabilities</p>
+            <a href="https://learning.sap.com/certifications/sap-certified-associate-sap-generative-ai-developer" target="_blank" class="card-link">Get Certified &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128736;</div>
+            <h4>Build Your Own MCP Server</h4>
+            <p>Use ABAP MCP SDK or odata-mcp-proxy</p>
+            <a href="https://github.com/abap-ai/mcp" target="_blank" class="card-link">ABAP SDK &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128200;</div>
+            <h4>ABAP AI 2026 Roadmap</h4>
+            <p>Stay ahead — Joule, ABAP MCP server, VS Code</p>
+            <a href="https://community.sap.com/t5/technology-blog-posts-by-sap/our-2026-roadmap-for-joule-for-developers-abap-ai-capabilities/ba-p/14360358" target="_blank" class="card-link">Read Roadmap &rarr;</a>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#11088;</div>
+            <h4>Contribute</h4>
+            <p>Add a resource, open a PR, grow the directory</p>
+            <a href="https://github.com/vigneshbarani24/awesome-sap-ai" target="_blank" class="card-link">Star & Contribute &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PEOPLE ============ -->
+  <section id="people" class="people-section">
+    <h2 class="section-title">People to Follow</h2>
+    <p class="section-subtitle">The builders pushing AI + SAP forward</p>
+    <div class="people-grid">
+      <a href="https://github.com/marianfoo" target="_blank" class="person-card">
+        <div class="person-avatar">MZ</div>
+        <h4>Marian Zeis</h4>
+        <p class="person-handle">@marianfoo</p>
+        <p class="person-bio">mcp-sap-docs, ABAP LLM Benchmarks, SAP AI MCP Servers list</p>
+      </a>
+      <a href="https://github.com/oisee" target="_blank" class="person-card">
+        <div class="person-avatar">AV</div>
+        <h4>Alice Vinogradova</h4>
+        <p class="person-handle">@oisee</p>
+        <p class="person-bio">Vibing Steampunk, Universal OData-to-MCP bridge, ZLLM</p>
+      </a>
+      <a href="https://github.com/secondsky" target="_blank" class="person-card">
+        <div class="person-avatar">E</div>
+        <h4>Eddie</h4>
+        <p class="person-handle">@secondsky</p>
+        <p class="person-bio">35 Claude Code SAP skills, MCP servers for BDC and SAC</p>
+      </a>
+      <a href="https://github.com/weiserman" target="_blank" class="person-card">
+        <div class="person-avatar">W</div>
+        <h4>Warren</h4>
+        <p class="person-handle">@weiserman</p>
+        <p class="person-bio">RAP skills for Claude Code — BTP, S/4HANA, on-premise</p>
+      </a>
+      <a href="https://github.com/lemaiwo" target="_blank" class="person-card">
+        <div class="person-avatar">WL</div>
+        <h4>Wouter Lemaire</h4>
+        <p class="person-handle">@lemaiwo</p>
+        <p class="person-bio">odata-mcp-proxy, BTP OData-to-MCP server</p>
+      </a>
+      <a href="https://www.linkedin.com/in/thomasjungsap/" target="_blank" class="person-card">
+        <div class="person-avatar">TJ</div>
+        <h4>Thomas Jung</h4>
+        <p class="person-handle">SAP Dev Advocacy</p>
+        <p class="person-bio">Head of SAP Developer Advocacy, SAP Developers YouTube</p>
+      </a>
+      <a href="https://qmacro.org" target="_blank" class="person-card">
+        <div class="person-avatar">DJ</div>
+        <h4>DJ Adams</h4>
+        <p class="person-handle">@qmacro</p>
+        <p class="person-bio">Developer Advocate, CAP, Hands-on SAP Dev streams</p>
+      </a>
+      <a href="https://github.com/tobiashofmann" target="_blank" class="person-card">
+        <div class="person-avatar">TH</div>
+        <h4>Tobias Hofmann</h4>
+        <p class="person-handle">@tobiashofmann</p>
+        <p class="person-bio">SAP Dev Tech Radar, "It's Full of Stars" blog</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2>Ready to explore?</h2>
+      <p>The full directory with 80+ resources lives on GitHub.</p>
+      <a href="https://github.com/vigneshbarani24/awesome-sap-ai" class="btn btn-primary btn-large" target="_blank">View Full Directory on GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Open source under Apache 2.0 &mdash; <a href="https://github.com/vigneshbarani24/awesome-sap-ai" target="_blank">vigneshbarani24/awesome-sap-ai</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
