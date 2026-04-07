@@ -1,6 +1,6 @@
 # Contributing to Awesome SAP AI
 
-Thanks for your interest in contributing! This is a community-driven directory, and we welcome additions from everyone.
+Thanks for your interest in contributing! This is a community-driven, open-source directory — additions from everyone are welcome.
 
 ## How to Add a Resource
 
@@ -9,7 +9,7 @@ Thanks for your interest in contributing! This is a community-driven directory, 
 1. Go to [Issues](https://github.com/vigneshbarani24/awesome-sap-ai/issues/new/choose)
 2. Select the **Add Resource** template
 3. Fill in the details about the resource you'd like to add
-4. Submit — we'll review and add it
+4. Submit — it'll be reviewed and added
 
 ### Option 2: Submit a Pull Request
 
@@ -19,7 +19,7 @@ Thanks for your interest in contributing! This is a community-driven directory, 
 
 ## Guidelines
 
-### What We Accept
+### Accepted
 
 - GitHub repos related to AI + SAP (MCP servers, agents, RAG, skills, SDKs, tools)
 - Tutorials, courses, and learning resources for AI in SAP
@@ -27,7 +27,7 @@ Thanks for your interest in contributing! This is a community-driven directory, 
 - YouTube videos and playlists covering SAP AI topics
 - Tools that integrate with or enhance the SAP AI ecosystem
 
-### What We Don't Accept
+### Not Accepted
 
 - Paid products or services (unless they have a meaningful free tier or open-source component)
 - Resources that are not related to both AI and SAP
@@ -57,8 +57,8 @@ Follow the existing format:
 
 ## Code of Conduct
 
-Be respectful and constructive. We're all here to help the SAP + AI community grow.
+Be respectful and constructive. The goal is to help the SAP + AI community grow.
 
 ## Questions?
 
-Open an issue with the **Question** label, and we'll get back to you.
+Open an issue with the **Question** label.

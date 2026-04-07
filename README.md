@@ -29,24 +29,11 @@
 
 ## Why This Repo?
 
-*   There are dozens of amazing AI + SAP projects scattered across GitHub, SAP Community, YouTube, and blogs. Finding them is hard. **This repo brings them all together.**
+*   Dozens of amazing AI + SAP projects are scattered across GitHub, SAP Community, YouTube, and blogs. Finding them is hard. **This repo brings them all together.**
 
-*   Whether you're building RAG pipelines on HANA Cloud, wiring up MCP servers for vibe coding, deploying agents with Joule Studio, or just trying to get started with AI on BTP — you'll find the best resources here.
+*   Building RAG pipelines on HANA Cloud? Wiring up MCP servers for vibe coding? Deploying agents with Joule Studio? Just trying to get started with AI on BTP? **Everything you need is here.**
 
-*   This is **not** a code repo. There are no working projects inside. This is a **curated index** of what exists out there, with links to external repos, tools, and resources.
-
----
-
-## How This Repo Differs from Other Lists
-
-| | **Awesome SAP AI** (this repo) | **[marianfoo/sap-ai-mcp-servers](https://github.com/marianfoo/sap-ai-mcp-servers)** |
-|---|---|---|
-| **Scope** | Full landscape of AI in SAP | MCP servers + AI dev skills |
-| **Coverage** | MCP, RAG, agents, voice, SDKs, tutorials, community, ABAP+AI, learning paths | MCP servers, AI skills, adjacent tools |
-| **Format** | Curated directory with descriptions | Data-rich tables with stars & license info |
-| **Goal** | One-stop-shop for anyone getting started | Deep-dive reference for MCP ecosystem |
-
-> Marian's list is excellent for MCP servers and AI dev skills. We go broader: the **full landscape** of AI in SAP. Use both!
+*   This is **not** a code repo. No working projects inside. This is the **complete open-source directory** of AI in SAP — every tool, SDK, MCP server, tutorial, and community resource, organized and linked so you can find what you need fast.
 
 ---
 
@@ -61,7 +48,7 @@
 - [Tutorials & Crash Courses](#-tutorials--crash-courses)
 - [SAP Community Content](#-sap-community-content)
 - [Adjacent Tools](#-adjacent-tools)
-- [Learning Path](#-learning-path)
+- [Zero to Hero](#-zero-to-hero)
 - [Contributing](#contributing)
 
 ---
@@ -123,8 +110,6 @@
 *   [secondsky/mcp-sap-bdc](https://github.com/secondsky) — MCP server for SAP Business Data Cloud with Delta Sharing and data product tools
 *   [MarioDeFelipe/sap-datasphere-plugin-for-claude](https://github.com/MarioDeFelipe/sap-datasphere-plugin-for-claude-cowork) — SAP Datasphere analytics operations via Claude
 *   [AWS ABAP Accelerator for Amazon Q](https://github.com/aws-solutions-library-samples/guidance-for-deploying-sap-abap-accelerator-for-amazon-q-developer) — Enterprise MCP server for SAP ABAP development with Amazon Q Developer
-
-> For the most comprehensive and up-to-date list of SAP MCP servers, see [marianfoo/sap-ai-mcp-servers](https://github.com/marianfoo/sap-ai-mcp-servers)
 
 ---
 
@@ -255,45 +240,82 @@
 
 ---
 
-## Learning Path
+## Zero to Hero
 
-### Where Do I Start?
+New to AI in SAP? This is your roadmap. Follow these levels in order — each one builds on the last.
 
-If you're new to AI in SAP, here's a recommended path:
+### Level 0: Prerequisites
 
-**Step 1: Understand the Basics**
-1. Take the free [Generative AI at SAP (openSAP)](https://open.sap.com/courses/genai1) course
-2. Explore the [SAP AI Learning Hub](https://learning.sap.com/artificial-intelligence) for structured paths
+Before you start, make sure you have:
 
-**Step 2: Set Up Your Environment**
-1. Get a [SAP BTP Trial Account](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
-2. Provision AI Core using the [BTP GenAI Starter Kit](https://github.com/SAP-samples/btp-genai-starter-kit)
-3. Install MCP servers: start with [CAP MCP](https://github.com/cap-js/mcp-server) + [Fiori MCP](https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server) + [UI5 MCP](https://github.com/UI5/mcp-server)
-
-**Step 3: Build Something**
-1. Follow the [Generative AI CodeJam](https://github.com/SAP-samples/generative-ai-codejam) for hands-on RAG
-2. Try [CAP + LLM CodeJam](https://github.com/SAP-samples/codejam-cap-llm) for CAP integration
-3. Explore [RAG with HANA Cloud Vector Engine](https://github.com/SAP-samples/cap-ai-vector-engine-sample)
-
-**Step 4: Go Deeper**
-1. Build custom agents with [Joule Studio](https://help.sap.com/docs/joule) or [SAP Cloud SDK for AI](https://github.com/SAP/ai-sdk-js)
-2. Install [SAP skills for Claude Code](https://github.com/secondsky/sap-skills) to supercharge your dev workflow
-3. Explore [agentic AI use cases](https://github.com/SAP-samples/btp-agentic-ai-use-cases) for real-world patterns
-
-### Prerequisites
-
-| Requirement | Details |
+| Requirement | How to Get It |
 |---|---|
-| **SAP BTP Account** | Trial or enterprise — needed for AI Core, HANA Cloud |
-| **AI Core Access** | Provision via BTP cockpit or [Starter Kit](https://github.com/SAP-samples/btp-genai-starter-kit) |
+| **SAP BTP Account** | [Create a free trial account](https://developers.sap.com/tutorials/hcp-create-trial-account.html) or use your enterprise account |
+| **AI Core Access** | Provision via BTP cockpit or automate with the [BTP GenAI Starter Kit](https://github.com/SAP-samples/btp-genai-starter-kit) |
 | **IDE** | VS Code, Cursor, or any MCP-compatible editor |
-| **AI Assistant** | Claude Code, GitHub Copilot, Cursor, or similar |
+| **AI Assistant** | Claude Code, GitHub Copilot, Cursor, Cline, or similar |
+| **Basic SAP Knowledge** | Familiarity with BTP, CAP, or Fiori (any one is enough to start) |
+
+### Level 1: Learn the Fundamentals
+
+Understand what AI on SAP actually means — the platform, the tools, the terminology.
+
+1. Take the free [Generative AI at SAP (openSAP)](https://open.sap.com/courses/genai1) course — 4.5 stars, 33K+ completions
+2. Read about [SAP AI Core](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core) and what the Generative AI Hub does
+3. Explore [SAP AI Learning Hub](https://learning.sap.com/artificial-intelligence) for structured learning paths
+4. Browse this repo top-to-bottom to see what's out there
+
+### Level 2: Set Up Your AI Development Environment
+
+Get your hands dirty. Provision services. Connect tools.
+
+1. Use the [BTP GenAI Starter Kit](https://github.com/SAP-samples/btp-genai-starter-kit) to automate AI Core + HANA Vector Engine setup with Terraform
+2. Install your first MCP servers — the trio that covers most SAP dev work:
+   - [CAP MCP Server](https://github.com/cap-js/mcp-server) — `npx -y @cap-js/mcp-server`
+   - [Fiori MCP Server](https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server) — `npx -y @sap-ux/fiori-mcp-server`
+   - [UI5 MCP Server](https://github.com/UI5/mcp-server) — `npx -y @ui5/mcp-server`
+3. Add [mcp-sap-docs](https://github.com/marianfoo/mcp-sap-docs) so your AI assistant can search 50,000+ SAP docs
+
+### Level 3: Build Your First AI-Powered SAP App
+
+Follow guided workshops. Get a working app running.
+
+1. Complete the [Generative AI CodeJam](https://github.com/SAP-samples/generative-ai-codejam) — learn RAG, embeddings, and the Python SDK on AI Core
+2. Try the [CAP + LLM CodeJam](https://github.com/SAP-samples/codejam-cap-llm) — integrate GenAI Hub into a CAP app
+3. Build a [RAG app with HANA Cloud Vector Engine](https://github.com/SAP-samples/cap-ai-vector-engine-sample) — vector embeddings + similarity search
+
+### Level 4: Supercharge Your Dev Workflow
+
+Use AI skills and MCP servers to 10x your daily SAP development.
+
+1. Install [SAP skills for Claude Code](https://github.com/secondsky/sap-skills) — 35 skills covering BTP, CAP, Fiori, ABAP, HANA, and more
+2. Try [vibe coding with Cline](https://github.com/SAP-samples/cloud-cap-vibe-with-cline) — build CAP + Fiori apps conversationally
+3. For ABAP developers: set up [Vibing Steampunk](https://github.com/oisee/vibing-steampunk) to vibe code in ABAP via ADT
+4. Add [RAP skills](https://github.com/weiserman/rap-skills) if you work with SAP RAP Business Objects
+
+### Level 5: Build AI Agents
+
+Move from AI-assisted development to building AI agents that automate business processes.
+
+1. Study the [BTP Agentic AI Use Cases](https://github.com/SAP-samples/btp-agentic-ai-use-cases) — real-world agent patterns using Joule Studio and SAP Cloud SDK for AI
+2. Try the [TechEd AI160 Hands-On](https://github.com/SAP-samples/teched2025-AI160) — build a PO Management Agent with LangGraph or Spring AI
+3. Learn the [SAP Cloud SDK for AI (JS)](https://github.com/SAP/ai-sdk-js) or [(Java)](https://github.com/SAP/ai-sdk-java) for pro-code agent development
+4. Read [SAP BTP AI Best Practices](https://github.com/SAP-samples/sap-btp-ai-best-practices) for production patterns in TypeScript, Python, Java, and CAP
+
+### Level 6: Go Pro
+
+Get certified. Contribute back. Stay on the cutting edge.
+
+1. Earn the [SAP Generative AI Developer Certification](https://learning.sap.com/certifications/sap-certified-associate-sap-generative-ai-developer)
+2. Follow the [ABAP AI 2026 Roadmap](https://community.sap.com/t5/technology-blog-posts-by-sap/our-2026-roadmap-for-joule-for-developers-abap-ai-capabilities/ba-p/14360358) to stay ahead of what's coming
+3. Build your own MCP server using the [ABAP MCP SDK](https://github.com/abap-ai/mcp) or [odata-mcp-proxy](https://www.npmjs.com/package/odata-mcp-proxy)
+4. Contribute a resource to this repo — open a [PR](CONTRIBUTING.md) or [issue](https://github.com/vigneshbarani24/awesome-sap-ai/issues/new/choose)
 
 ---
 
 ## Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add resources to this directory.
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add resources to this directory.
 
 ---
 
