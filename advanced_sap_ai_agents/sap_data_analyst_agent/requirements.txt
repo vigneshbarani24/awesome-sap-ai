@@ -1,0 +1,4 @@
+streamlit
+generative-ai-hub-sdk
+hdbcli
+pandas
