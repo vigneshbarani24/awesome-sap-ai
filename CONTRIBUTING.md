@@ -21,7 +21,7 @@ Thanks for your interest in contributing! This is a community-driven directory, 
 
 ### What We Accept
 
-- GitHub repos related to AI + SAP (MCP servers, agents, RAG, skills, SDKs, tools)
+- GitHub repos related to AI + SAP (MCP servers, agents, RAG, LLM apps, skills, SDKs, tools)
 - Tutorials, courses, and learning resources for AI in SAP
 - Blog posts and articles from SAP Community or personal blogs
 - YouTube videos and playlists covering SAP AI topics
