@@ -34,7 +34,7 @@
 
 *   Whether you're building RAG pipelines on HANA Cloud, wiring up MCP servers for vibe coding, deploying agents with Joule Studio, or just trying to get started with AI on BTP — you'll find the best resources here.
 
-*   This is **not** a code repo. There are no working projects inside. This is a **curated index** of what exists out there, with links to external repos, tools, and resources.
+*   This repo includes **runnable SAP AI apps** you can clone and deploy, plus a **curated index** of the best external repos, tools, and resources.
 
 ---
 
@@ -44,7 +44,7 @@
 |---|---|---|
 | **Scope** | Full landscape of AI in SAP | MCP servers + AI dev skills |
 | **Coverage** | MCP, RAG, agents, LLM apps, voice, SDKs, tutorials, community, ABAP+AI, learning paths | MCP servers, AI skills, adjacent tools |
-| **Format** | Curated directory with descriptions | Data-rich tables with stars & license info |
+| **Format** | Runnable apps + curated directory | Data-rich tables with stars & license info |
 | **Goal** | One-stop-shop for anyone getting started | Deep-dive reference for MCP ecosystem |
 
 > Marian's list is excellent for MCP servers and AI dev skills. We go broader: the **full landscape** of AI in SAP. Use both!
@@ -52,6 +52,12 @@
 ---
 
 ## Table of Contents
+
+**Runnable Apps** — Clone, install, run:
+
+- [Starter SAP AI Agents](#-starter-sap-ai-agents)
+
+**Curated Directory** — Best resources across the ecosystem:
 
 - [Official SAP AI Tools & SDKs](#-official-sap-ai-tools--sdks)
 - [MCP Servers for SAP](#-mcp-servers-for-sap)
@@ -65,6 +71,25 @@
 - [Adjacent Tools](#-adjacent-tools)
 - [Learning Path](#-learning-path)
 - [Contributing](#contributing)
+
+---
+
+## Starter SAP AI Agents
+
+> **Clone → Install → Run.** Each project is a self-contained Streamlit app powered by SAP AI Core. All you need is a BTP account with AI Core provisioned.
+
+*   [📄 SAP Document Summarizer](starter_sap_ai_agents/sap_document_summarizer/) — Upload SAP documents and get AI-powered summaries with executive, technical, or action-item modes
+*   [🛒 SAP Purchase Order Chatbot](starter_sap_ai_agents/sap_purchase_order_chatbot/) — Chat with purchase order data using natural language — spending analysis, vendor breakdowns, status checks
+*   [🔍 SAP OData Natural Language Agent](starter_sap_ai_agents/sap_odata_nl_agent/) — Describe what you need in plain English, get valid OData V2 queries for SAP S/4HANA
+
+```bash
+# Quick start (any project)
+cd starter_sap_ai_agents/<project_name>
+pip install -r requirements.txt
+streamlit run <project_name>.py
+```
+
+> Want to add a project? See [CONTRIBUTING.md](CONTRIBUTING.md) — we welcome runnable SAP AI apps!
 
 ---
 
