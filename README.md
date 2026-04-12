@@ -190,6 +190,163 @@
 *   [Generative AI Solves Skills Gap](https://news.sap.com/2023/05/sap-successfactors-helps-hr-solve-skills-gap-with-generative-ai/) — How SuccessFactors uses GenAI to close the skills gap
 *   [AI Learning & Talent Strategy](https://learning.sap.com/learning-journeys/configuring-sap-successfactors-platform-advanced-topics/sap-business-ai-capabilities-in-talent-intelligence-hub) — SAP Learning: Business AI capabilities in Talent Intelligence Hub
 
+### Sales & CRM Intelligence
+
+*   [Data Attribute Recommendation SDK](https://github.com/SAP/data-attribute-recommendation-python-sdk) — Python SDK for ML-based auto-completion of product and sales attributes
+*   [Sales Order Auto-Completion (TechEd)](https://github.com/SAP-samples/teched2023-AI268) — Sales order auto-completion with Data Attribute Recommendation and Intelligent Product Recommendation
+*   [AI-Driven Insights from HANA Cloud (TechEd)](https://github.com/SAP-samples/teched2025-DA261) — Unlocking AI-driven insights from business data in SAP HANA Cloud
+*   [Build GenAI Scenario with Cloud SDK (TechEd)](https://github.com/SAP-samples/teched2024-AI180) — Build your own generative AI scenario using SAP Cloud SDK for AI
+*   [Deal Intelligence: Opportunity Scoring](https://help.sap.com/docs/sap-cloud-for-customer/machine-learning-in-sap-cloud-for-customer/deal-intelligence-opportunity-scoring) — ML-trained predictive models for win probability in SAP Sales Cloud
+*   [SAP Intelligent Product Recommendation](https://www.sap.com/products/crm/intelligent-product-recommendation.html) — AI-powered product and configuration recommendations based on historical sales data
+*   [Customer Churn Analysis with HANA PAL](https://community.sap.com/t5/technology-blog-posts-by-members/hands-on-tutorial-pal-in-hana-for-customer-churn-analysis-for-online-retail/ba-p/13422337) — Hands-on tutorial using PAL decision trees for retail churn prediction
+*   [Churn Prediction with SAP Analytics Cloud](https://community.sap.com/t5/artificial-intelligence-blogs-posts/churn-prediction-using-sap-analytics-cloud/ba-p/13466975) — Predictive scenario for telecom churn using SAP Analytics Cloud
+*   [AI in Sales and Customer Service](https://www.sap.com/products/crm/ai-sales.html) — SAP's AI capabilities for sales forecasting, deal intelligence, and quote automation
+*   [ML for Intelligent Sales & Lead Scoring](https://learning.sap.com/courses/configuring-sap-sales-cloud-version-2/leveraging-machine-learning-for-intelligent-sales-and-lead-scoring) — SAP Learning: ML for intelligent sales and lead scoring in Sales Cloud V2
+
+### Customer Service & CX
+
+*   [GenAI Mail Insights](https://github.com/SAP-samples/btp-cap-genai-rag) — Email analysis with LLMs for categorization, sentiment, urgency assessment, and RAG response generation
+*   [Service Ticket Intelligence (Jupyter)](https://github.com/SAP-samples/service-ticket-intelligence-jupyter-notebook) — Jupyter samples for auto-routing and classifying service requests with ML
+*   [Service Ticket Intelligence (Postman)](https://github.com/SAP-samples/service-ticket-intelligence-postman-collection) — Postman collection for service ticket ML classification
+*   [Business Entity Recognition](https://github.com/SAP/business-entity-recognition-client-library) — Python client for detecting named entities in emails, tickets, and documents
+*   [AI Agents with Partner Ecosystem (TechEd)](https://github.com/SAP-samples/teched2025-AI165) — Interconnect custom AI agents with ServiceNow ticketing and partner ecosystem via A2A
+*   [FAQ Chatbot on BTP](https://community.sap.com/t5/artificial-intelligence-and-machine-learning-blogs/hands-on-tutorial-creating-an-faq-chatbot-on-btp/ba-p/13647852) — Hands-on: FAQ chatbot using Generative AI Hub and SAP HANA Cloud
+*   [GenAI in Customer Service](https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/business-value-of-genai-in-customer-service/ba-p/13749100) — 360 customer profile, AI-highlighted email threads, automated response generation
+*   [Sentiment Analysis with SAP Signavio](https://community.sap.com/t5/technology-blog-posts-by-sap/make-sense-of-sentiment-a-step-by-step-guide-to-ai-assisted-context/ba-p/14245552) — Step-by-step guide linking customer sentiment to process steps
+*   [SAP CX AI Toolkit](https://www.sap.com/products/crm/ai-toolkit.html) — AI agents for customer service, shopping assistants, and knowledge retrieval
+*   [AI in SAP Sales & Service Cloud V2](https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/how-ai-in-sap-sales-amp-service-cloud-v2-is-transforming-crm-adoption/ba-p/14305829) — 30+ AI capabilities, intelligent Q&A with RAG, custom AI agents
+
+### Manufacturing & Quality
+
+*   [Smart Factory: Defect Detection + Predictive Maintenance](https://github.com/SAP-samples/btp-ai-sustainability-bootcamp) — Computer vision defect detection and sound-based anomaly classification on SAP AI Core
+*   [HANA ML Samples (PAL/APL)](https://github.com/SAP-samples/hana-ml-samples) — Predictive Analysis Library SQL and Python notebooks for forecasting and classification
+*   [Smart CO2nverter AI](https://github.com/SAP-samples/smart-co2nverter-ai) — Mobile app using GPT on BTP for carbon footprint tracking and ML transaction categorization
+*   [AI Embedding into S/4HANA with ISLM (TechEd)](https://github.com/SAP-samples/teched2023-AI267) — Empowering AI embedding into S/4HANA with Intelligent Scenario Lifecycle Management
+*   [Visual Inspection in Digital Manufacturing](https://community.sap.com/t5/supply-chain-management-blog-posts-by-sap/end-to-end-visual-inspection-process-in-sap-digital-manufacturing/ba-p/13692763) — End-to-end visual inspection with ML-based defect detection
+*   [AI/ML Solution for Visual Inspection](https://community.sap.com/t5/product-lifecycle-management-blogs-by-sap/ai-ml-solution-for-visual-inspection-overview-how-to-close-the-production/ba-p/13462769) — Closing the production quality gap with ML models on the shop floor edge
+*   [Digital Twin for Process Optimization](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/digital-twin-technology-for-process-optimization/ba-p/14301503) — Digital twin technology with agentic AI components
+*   [AI-Boosted Asset Maintenance](https://community.sap.com/t5/supply-chain-management-blog-posts-by-sap/ai-boosted-asset-maintenance-for-process-industries/ba-p/14288625) — AI-boosted asset maintenance for process industries
+*   [SAP Digital Manufacturing + AI](https://community.sap.com/t5/supply-chain-management-blog-posts-by-sap/sap-digital-manufacturing-and-role-of-artificial-intelligence/ba-p/13893261) — Visual inspection, predictive maintenance, and Joule copilot integration
+*   [Defect Detection in TensorFlow](https://learning.sap.com/courses/building-ai-and-sustainability-solutions-on-sap-btp/computer-vision-and-defect-detection-in-tensorflow-_LE_ce2683a3-a942-4d0e-8276-5ab63f802b81) — SAP Learning: Computer vision and defect detection in TensorFlow on BTP
+
+### Document Intelligence & Extraction
+
+*   [SAP Business Document Processing](https://github.com/SAP/business-document-processing) — Python client for Document Classification and Document Information Extraction (invoices, POs, payment advices)
+*   [Document Processing with GenAI (TechEd)](https://github.com/SAP-samples/teched2023-AI284v) — Jumpstart document processing use cases with GenAI in 40+ languages
+*   [SAP Document AI Hands-On (TechEd)](https://github.com/SAP-samples/teched2025-AI162) — Get hands-on experience with SAP Document AI
+*   [Extract Info with GenAI + Document AI](https://developers.sap.com/tutorials/cp-aibus-dox-ui-gen-ai.html) — Extract information from custom documents with Generative AI and SAP Document AI
+*   [Integrating Document AI with CAP](https://community.sap.com/t5/technology-blog-posts-by-members/integrating-sap-document-information-extraction-document-ai-with-sap-cap/ba-p/14235024) — Step-by-step guide integrating SAP Document AI with SAP CAP
+*   [Document AI Premium in Build Process Automation](https://community.sap.com/t5/technology-blog-posts-by-sap/using-document-ai-premium-in-sap-build-process-automation/ba-p/14227275) — LLM-based Document AI Premium in SAP Build Process Automation
+*   [AI Data Extraction in Ariba Invoicing](https://community.sap.com/t5/spend-management-blog-posts-by-sap/introducing-ai-assisted-multi-model-data-extraction-in-sap-ariba-invoicing/ba-p/14318270) — Multi-model AI data extraction in SAP Ariba Invoicing
+*   [SAP Document AI](https://www.sap.com/products/artificial-intelligence/ai-foundation-os/document-ai.html) — Intelligent document processing in 100+ languages with pretrained transformers and LLMs
+*   [SAP Document Processing on AWS](https://github.com/aws-solutions-library-samples/guidance-for-sap-intelligent-document-processing-and-insights-using-generative-ai-on-aws) — Automate SAP document processing with AWS Textract, Bedrock RAG, and ABAP SDK
+*   [Invoice Validation with Python](https://community.sap.com/t5/technology-blog-posts-by-sap/invoice-validation-with-sap-document-information-extraction-api-amp-python/ba-p/14082669) — Invoice validation with SAP Document Information Extraction API and Python
+
+### RAG Applications
+
+*   [LangChain Integration for HANA Cloud](https://github.com/SAP/langchain-integration-for-sap-hana-cloud) — Official LangChain Python integration for HANA Cloud (vector search, knowledge graph, in-database)
+*   [LangChain.js Integration for HANA Cloud](https://github.com/SAP/langchainjs-integration-for-sap-hana-cloud) — Official LangChain.js integration for SAP HANA Cloud
+*   [GenAI Toolkit for HANA Cloud](https://github.com/SAP/generative-ai-toolkit-for-sap-hana-cloud) — HANA ML Python client extension for GenAI with LangChain and vector engine integration
+*   [Hybrid GraphRAG Framework](https://github.com/skye0402/hana-kgvector) — TypeScript framework for hybrid GraphRAG on HANA Cloud (knowledge graphs + vector + multimodal)
+*   [HANA Vector Engine + LangChain](https://community.sap.com/t5/technology-blog-posts-by-sap/hana-vector-engine-and-langchain/ba-p/13636959) — 6 steps to build a RAG AI application with HANA Vector Engine and LangChain
+*   [Python RAG for Beginners](https://community.sap.com/t5/technology-blog-posts-by-sap/python-rag-sample-for-beginners-using-sap-hana-cloud-and-sap-ai-core/ba-p/13678902) — Beginner-friendly RAG using SAP HANA Cloud and SAP AI Core on Google Colab
+*   [RAG Bot on BTP](https://community.sap.com/t5/technology-blog-posts-by-sap/building-a-rag-bot-on-sap-btp-with-hana-cloud-vector-engine-and-ai-core/ba-p/14197466) — Building a RAG bot with HANA Cloud Vector Engine and AI Core
+*   [Graph-Native AI Chatbot](https://community.sap.com/t5/technology-blog-posts-by-sap/building-a-graph-native-ai-chatbot-on-sap-btp/ba-p/14313174) — Graph-native AI chatbot using Knowledge Graphs on SAP BTP
+*   [GraphRAG and HybridRAG on BTP](https://community.sap.com/t5/artificial-intelligence-blogs-posts/beyond-vectors-the-next-evolution-of-rag-on-sap-btp-using-sap-hana-cloud/ba-p/14301103) — Beyond vectors: GraphRAG, HybridRAG with Knowledge Graph Engine
+*   [BM25 and Hybrid Search for RAG](https://community.sap.com/t5/artificial-intelligence-blogs-posts/bm25-and-hybrid-search-for-rag-on-sap-hana-cloud-without-pal/ba-p/14339400) — BM25 and hybrid search for RAG on SAP HANA Cloud
+*   [Enterprise-Grade RAG Architectures](https://community.sap.com/t5/technology-blog-posts-by-sap/building-enterprise-grade-rag-seven-architectural-innovations-beyond-vector/ba-p/14348376) — Seven architectural innovations beyond vector search
+*   [Document Grounding in AI Core](https://community.sap.com/t5/technology-blog-posts-by-sap/out-of-the-box-document-grounding-in-sap-ai-core-rag-with-sap-help-portal/ba-p/14076473) — Out-of-the-box document grounding: RAG with SAP Help Portal
+
+### Chatbots & Conversational AI
+
+*   [Kyma Chatbot Sample](https://github.com/SAP-samples/kyma-runtime-extension-samples/tree/main/chatbot-conversational_AI) — Chatbot sample on SAP BTP Kyma runtime
+*   [SAP Conversational AI Platform](https://github.com/SAPConversationalAI/SAPConversationalAI) — Original SAP Conversational AI collaborative bot platform
+*   [Custom Agentic Chatbot with Joule Studio](https://community.sap.com/t5/technology-blog-posts-by-sap/custom-agentic-chatbot-with-sap-ai-core-and-joule-studio-part-1/ba-p/14232347) — Multi-part series building an agentic chatbot with AI Core and Joule Studio
+*   [Agent Builder in Joule Studio (GA)](https://community.sap.com/t5/artificial-intelligence-blogs-posts/agent-builder-in-joule-studio-is-now-generally-available-build-your-own/ba-p/14289282) — Build custom Joule agents with low-code/no-code agent builder
+*   [AI Core Agent QuickLaunch (8-Part Series)](https://community.sap.com/t5/technology-blog-posts-by-sap/sap-ai-core-agent-quicklaunch-series-part0-prologue/ba-p/14104823) — Complete series: LangChain, RAG, SAPUI5 chat UI, CF deployment
+*   [Agentic AI with MCP on BTP Kyma](https://community.sap.com/t5/technology-blog-posts-by-sap/building-an-agentic-ai-system-with-model-context-protocol-mcp-and-sap-btp/ba-p/14090900) — Building an agentic AI system with MCP and SAP BTP Kyma
+*   [GPT-4 Bot for SAP on Microsoft Teams](https://techcommunity.microsoft.com/blog/sapapplications/building-gpt-4-powered-bots-for-sap-enterprise-data-on-microsoft-teams-a-low-cod/3902018) — Low-code GPT-4 powered bots for SAP enterprise data on Teams
+*   [Teams Chatbot with SAP Graph](https://github.com/ROBROICH/TEAMS-Chatbot-Microsoft-SAP-Graph) — Teams chatbot utilizing Microsoft Graph and SAP Graph APIs
+*   [Multimodal Response Assistant](https://developers.sap.com/tutorials/ai-core-genaihub-multimodal-usage.html) — Multimodal chatbot using SAP AI Core (text, audio, image, video)
+*   [Joule for Beginners](https://community.sap.com/t5/technology-blog-posts-by-members/sap-joule-for-beginners-everything-you-need-to-know-all-at-one-stop/ba-p/14160885) — Everything you need to know about SAP Joule at one stop
+
+### Code Generation & Dev Tools
+
+*   [ABAP Code Analysis with Corrective RAG](https://github.com/Ashuthosh0/abap-LLM) — ABAP code analysis and optimization using Corrective RAG (CRAG)
+*   [Fiori App Development with Joule](https://community.sap.com/t5/technology-blog-posts-by-sap/generative-ai-based-sap-fiori-app-development-with-joule-directly-from-the/ba-p/13654153) — Generate SAP Fiori apps with Joule directly from business requirements
+*   [GitHub Copilot for ABAP in Eclipse](https://community.sap.com/t5/technology-blog-posts-by-members/getting-started-with-abap-support-in-github-copilot-for-eclipse-ide/ba-p/14086717) — Getting started with ABAP support in GitHub Copilot for Eclipse
+*   [GitHub Copilot for SAP Fiori](https://community.sap.com/t5/technology-blog-posts-by-members/leverage-github-copilot-for-sap-fiori-code-generation/ba-p/13566260) — Leverage GitHub Copilot for SAP Fiori code generation
+*   [Custom Code Migration with Joule](https://community.sap.com/t5/technology-blog-posts-by-sap/custom-code-migration-to-sap-s-4hana-powered-by-sap-joule-for-developers/ba-p/14329094) — Migrate ECC ABAP to S/4HANA powered by Joule with ATC finding resolution
+*   [AWS ABAP Accelerator for Amazon Q](https://github.com/aws-solutions-library-samples/guidance-for-deploying-sap-abap-accelerator-for-amazon-q-developer) — Converts legacy ECC ABAP to S/4HANA-compatible code with Amazon Q
+*   [SAP Build MCP Servers for Agentic Dev](https://community.sap.com/t5/technology-blog-posts-by-sap/sap-build-introduces-new-mcp-servers-to-enable-agentic-development-for/ba-p/14205602) — MCP servers enabling agentic enterprise app development
+*   [AI-Powered Test Automation (MCP)](https://github.com/spnsrk/TestAutomationMCP) — Multi-agent test automation platform on MCP for Web, Salesforce, and SAP
+*   [11 Key Joule Commands for CAP](https://blog.sap-press.com/11-key-joule-commands-for-development-with-sap-cap) — Essential Joule commands for CAP development
+*   [Streamlit Chatbot with AI Core](https://github.com/joniliu/cf-streamlit-aicore) — Streamlit chatbot UI integrated with SAP AI Core via Generative AI Hub SDK
+
+### Multi-Agent Systems & Frameworks
+
+*   [CrewAI Agents on SAP AI Core](https://community.sap.com/t5/technology-blog-posts-by-sap/leveraging-sap-ai-core-to-build-custom-ai-agents-with-crewai/ba-p/14279604) — Build custom AI agents with CrewAI on SAP AI Core with enterprise LLM governance
+*   [LiteLLM + CrewAI + SAP RPT-1](https://community.sap.com/t5/artificial-intelligence-blogs-posts/i-built-an-ai-agent-with-litellm-crewai-and-sap-rpt-1-here-s-what-actually/ba-p/14315663) — Building an AI agent with LiteLLM, CrewAI, and SAP-RPT-1
+*   [AI Developer Challenge: Build Agents](https://community.sap.com/t5/artificial-intelligence-blogs-posts/ai-developer-challenge-april-2026-build-ai-agents-with-generative-ai-hub/ba-p/14327218) — April 2026 challenge: Build AI agents with CrewAI + Generative AI Hub
+*   [LiteLLM Agentic Examples for SAP](https://github.com/sap-contributions/litellm-agentic-examples) — Agentic framework examples (CrewAI, LangGraph) for SAP Generative AI Hub via LiteLLM
+*   [Joule A2A: Connect Code-Based Agents](https://community.sap.com/t5/technology-blog-posts-by-sap/joule-a2a-connect-code-based-agents-into-joule/ba-p/14329279) — Connect code-based agents (Google ADK, LangGraph) into Joule via A2A protocol
+*   [Extend Joule & Build Agents (TechEd)](https://github.com/SAP-samples/teched2025-AI163) — Build custom Joule agent with multiple skills and document grounding
+*   [Agentic Process AI with Signavio (TechEd)](https://github.com/SAP-samples/teched2025-BTM161) — Agentic process AI with SAP Signavio for multi-agent mining and governance
+*   [AI Agents on SAP LeanIX (TechEd)](https://github.com/SAP-samples/teched2025-BTM260) — Building AI agents on SAP LeanIX solutions based on MCP
+*   [Synthetic Data with Google ADK + SAP](https://github.com/Sreerakhi/Synthetic-Data-Fabricator) — Multi-agent system with Google ADK for fabricating synthetic test data in SAP
+*   [Agent Mining in SAP Signavio](https://community.sap.com/t5/technology-blog-posts-by-sap/agent-mining-in-sap-signavio-understand-agent-behavior/ba-p/14279314) — Track, analyze, and benchmark AI agent behavior in enterprise systems
+*   [Agentic AI with A2A + MCP on BTP](https://community.sap.com/t5/technology-blog-posts-by-sap/building-an-agentic-ai-system-with-agent2agent-a2a-and-mcp-tools-on-sap-btp/ba-p/14093412) — Building an agentic AI system with A2A and MCP tools on SAP BTP
+
+### Data Analytics & Forecasting
+
+*   [HANA ML Samples (PAL + APL)](https://github.com/SAP-samples/hana-ml-samples) — Predictive Analysis Library SQL and HANA-ML Python notebooks for forecasting and classification
+*   [HANA ML Python CodeJam](https://github.com/SAP-samples/hana-ml-py-codejam) — CodeJam: Getting started with ML using SAP HANA Cloud and Python
+*   [AI in SAP Business Data Cloud (TechEd)](https://github.com/SAP-samples/teched2025-DA265) — Discover AI in SAP Business Data Cloud with Joule and "Just Ask"
+*   [AI in SAP Analytics Cloud](https://community.sap.com/t5/technology-blog-posts-by-sap/need-to-know-unlocking-the-power-of-ai-in-sap-analytics-cloud/ba-p/14364837) — Smart Predict, Compass, Smart Grouping, Just Ask, and more
+*   [Natural Language Query: "Just Ask"](https://community.sap.com/t5/technology-blog-posts-by-sap/initial-release-of-sap-analytics-cloud-just-ask/ba-p/13583721) — Natural language analytics powered by AI in SAP Analytics Cloud
+*   [HANA Cloud 2025 ML/AI Features](https://community.sap.com/t5/technology-blog-posts-by-sap/new-machine-learning-and-ai-features-in-sap-hana-cloud-2025-q2/ba-p/14136079) — Experiment tracking, outlier detection, isolation forest, data drift analysis
+*   [Tabular AI in HANA Cloud](https://community.sap.com/t5/technology-blog-posts-by-sap/new-machine-learning-and-ai-features-in-sap-hana-cloud-2025-q1/ba-p/14078615) — Classification, regression, forecasting, and anomaly detection via SQL
+*   [SAP + Databricks Partnership](https://news.sap.com/2025/02/sap-databricks-open-bold-new-era-data-ai/) — Zero-copy Delta Sharing for ML on SAP business data
+*   [Cash Flow & Payment Prediction (TechEd)](https://github.com/SAP-samples/teched2025-DA266) — AI with SAP Databricks for cashflow prediction and payment delay analysis
+*   [ML with HANA Cloud (Hands-On)](https://community.sap.com/t5/artificial-intelligence-blogs-posts/hands-on-tutorial-machine-learning-with-sap-hana-cloud/ba-p/13683430) — Time-series forecasts with embedded PAL in HANA Cloud
+
+### Sustainability & ESG
+
+*   [BTP AI + Sustainability Bootcamp](https://github.com/SAP-samples/btp-ai-sustainability-bootcamp) — Computer vision defect detection, sound anomaly classification, sustainability KPIs on BTP
+*   [Smart CO2nverter AI](https://github.com/SAP-samples/smart-co2nverter-ai) — Mobile app using GPT on BTP for CO2 footprint tracking and climate-conscious banking
+*   [SAP Sustainability Footprint Management](https://www.sap.com/products/scm/sustainability-footprint-management.html) — AI-automated emission factor mapping with confidence scoring for carbon footprint
+*   [SAP Sustainability Control Tower](https://www.sap.com/products/scm/sustainability-control-tower.html) — ESG KPI governance with AI-assisted report generation
+*   [SAP Green Token](https://www.sap.com/products/scm/green-token.html) — AI validates and extracts data from ISCC PLUS supplier sustainability declarations
+*   [AI Powers Sustainable Enterprise](https://news.sap.com/2025/05/new-era-sustainable-enterprise-management-powered-by-applications-data-ai/) — SAP Sapphire 2025: sustainable enterprise management powered by AI
+*   [AI for Cleaner Energy Future](https://community.sap.com/t5/sap-for-utilities-blog-posts/unlocking-a-cleaner-and-greener-energy-future-with-ai/ba-p/14220956) — Dispatch optimization, Scope 1-3 tracking, renewable integration with AI
+*   [SAP Asset Performance Management](https://www.sap.com/products/scm/apm.html) — AI-powered predictive maintenance on connected assets for sustainability
+
+### Process Automation & BPM
+
+*   [Multimodal GenAI for BPM](https://github.com/SAP-samples/multimodal-generative-ai-for-bpm) — Generate BPMN process models from unstructured documents using multimodal LLMs (GPT-4V)
+*   [S/4HANA Extension with Process Automation](https://github.com/SAP-samples/s4hana-cloud-extension-process-automation) — Event-driven architecture automating S/4HANA business processes
+*   [ISLM Samples for S/4HANA](https://github.com/SAP-ISLM/ISLM-Samples) — Official ISLM samples for embedding AI/ML scenarios into SAP S/4HANA
+*   [Agentic Process AI (TechEd)](https://github.com/SAP-samples/teched2025-AD168) — From prompt to process: AI-accelerated process automation in SAP Build
+*   [Text-to-Process in SAP Signavio](https://community.sap.com/t5/technology-blog-posts-by-sap/ai-powered-modeling-gets-an-upgrade-text-to-process-v2-in-sap-signavio-lab/ba-p/14263094) — Generate BPMN from natural language descriptions
+*   [AI in SAP Build Process Automation](https://learning.sap.com/courses/discovering-enterprise-automation-with-sap/leveraging-ai-in-sap-build-process-automation) — SAP Learning: AI in SAP Build Process Automation
+*   [Event-Driven Architecture from NL](https://community.sap.com/t5/technology-blog-posts-by-sap/new-ai-feature-arrived-from-idea-to-event-driven-architecture-with-sap/ba-p/14345456) — Generate event-driven architectures from natural language business descriptions
+*   [LLM from Cloud Integration with Data Masking](https://community.sap.com/t5/technology-blog-posts-by-sap/invoking-llm-from-cloud-integration-responsibly-made-easy-with-generative/ba-p/14176222) — Invoke LLMs from Cloud Integration with GDPR-compliant data masking
+*   [Process Optimization with Signavio ML](https://developers.sap.com/tutorials/signavio-process-intelligence-machine-learning.html) — AI-driven process optimization with ML in SAP Signavio
+*   [Apps & Processes with Joule (TechEd)](https://github.com/SAP-samples/teched2024-AD181) — Develop applications and processes with SAP Build and Joule
+
+### Open-Source LLMs on SAP AI Core
+
+*   [Bring Open-Source LLMs into AI Core](https://community.sap.com/t5/artificial-intelligence-blogs-posts/bring-open-source-llms-into-sap-ai-core/ba-p/13655167) — Self-host Phi, LLaMa, Mistral, and other open-source LLMs on SAP AI Core
+*   [Open-Source LLMs with Ollama on AI Core](https://community.sap.com/t5/artificial-intelligence-blogs-posts/bring-open-source-llms-into-sap-ai-core-with-ollama/ba-p/13659769) — Lightweight local LLM deployment with Ollama on SAP AI Core
+*   [Custom Transformer Server on AI Core](https://community.sap.com/t5/artificial-intelligence-blogs-posts/bring-open-source-llms-into-sap-ai-core-with-custom-transformer-server/ba-p/13745959) — Phi-3-vision multimodal custom transformer server on AI Core
+*   ["SAP AI Core Is All You Need" (8-Part Series)](https://community.sap.com/t5/technology-blog-posts-by-sap/sap-ai-core-is-all-you-need-1-building-your-own-language-model-with/ba-p/13687781) — Build a language model from scratch with Transformers on SAP AI Core
+*   [SAP-RPT-1 Foundation Model](https://community.sap.com/t5/technology-blog-posts-by-sap/what-is-sap-rpt-1-a-table-specialized-model-explained-through-the-original/ba-p/14277618) — SAP's Relational Pretrained Transformer for predictive business insights on tabular data
+*   [GenAI with Orchestration Service](https://developers.sap.com/tutorials/ai-core-orchestration-consumption.html) — Beginner's guide to consuming GenAI models using SAP AI Core orchestration
+*   [Document Grounding with AI Core](https://developers.sap.com/tutorials/ai-core-orchestration-grounding.html) — Orchestration with grounding capabilities for RAG in SAP AI Core
+*   [Google Vertex AI SDK for SAP ABAP](https://github.com/GoogleCloudPlatform/sap-genai-samples) — GenAI samples for SAP using Vertex AI SDK for ABAP
+*   [Agentic AI System with GenAI Hub](https://community.sap.com/t5/technology-blog-posts-by-sap/building-an-agentic-ai-system-with-sap-generative-ai-hub/ba-p/14078187) — From lightweight LLM setup to tool-augmented agent on SAP GenAI Hub
+*   [LLM Agents Evaluation Tutorial (KDD 2025)](https://github.com/SAP-samples/llm-agents-eval-tutorial) — KDD 2025: Evaluation and benchmarking of LLM agents (SAP research)
+
 ---
 
 ## ABAP + AI
