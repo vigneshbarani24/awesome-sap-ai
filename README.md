@@ -56,6 +56,9 @@
 **Runnable Apps** — Clone, install, run:
 
 - [Starter SAP AI Agents](#-starter-sap-ai-agents)
+- [Advanced SAP AI Agents](#-advanced-sap-ai-agents)
+- [RAG on SAP](#-rag-on-sap)
+- [MCP SAP Agents](#-mcp-sap-agents)
 
 **Curated Directory** — Best resources across the ecosystem:
 
@@ -90,6 +93,25 @@ streamlit run <project_name>.py
 ```
 
 > Want to add a project? See [CONTRIBUTING.md](CONTRIBUTING.md) — we welcome runnable SAP AI apps!
+
+---
+
+## Advanced SAP AI Agents
+
+*   [🎫 SAP Support Agent Team](advanced_sap_ai_agents/sap_support_agent_team/) — Three agents collaborate: Classifier triages tickets, Resolver provides fixes with transaction codes, Escalation Manager handles critical issues
+*   [📊 SAP Data Analyst Agent](advanced_sap_ai_agents/sap_data_analyst_agent/) — Ask questions about your SAP data in plain English — generates HANA SQL, runs it, and visualizes results
+
+---
+
+## RAG on SAP
+
+*   [🗄️ SAP HANA RAG Agent](rag_sap_tutorials/sap_hana_rag/) — Upload documents, embed and store in HANA Cloud Vector Engine, then ask questions with grounded answers and source citations
+
+---
+
+## MCP SAP Agents
+
+*   [🔌 SAP MCP Dev Agent](mcp_sap_agents/sap_mcp_dev_agent/) — AI dev assistant combining CAP, Fiori, and UI5 MCP server knowledge — get code examples with correct file paths and best practices
 
 ---
 
