@@ -44,6 +44,7 @@
 - [AI Skills & Prompts for SAP](#-ai-skills--prompts-for-sap)
 - [RAG & Knowledge Retrieval](#-rag--knowledge-retrieval)
 - [AI Agents for SAP](#-ai-agents-for-sap)
+- [SAP AI Use Cases by Category](#-sap-ai-use-cases-by-category)
 - [ABAP + AI](#-abap--ai)
 - [Tutorials & Crash Courses](#-tutorials--crash-courses)
 - [SAP Community Content](#-sap-community-content)
@@ -143,6 +144,51 @@
 *   [SAP-samples/sap-btp-ai-best-practices](https://github.com/SAP-samples/sap-btp-ai-best-practices) — AI paradigm implementations following best practices with code samples in TypeScript, Python, Java, and CAP
 *   [michal-majer/sap-cap-fiori-ai-agents](https://github.com/michal-majer/sap-cap-fiori-ai-agents) — Multi-agent orchestrator for SAP CAP + Fiori application development
 *   [SAP-samples/cloud-cap-vibe-with-cline](https://github.com/SAP-samples/cloud-cap-vibe-with-cline) — Vibe coding with Cline + SAP AI Core to build CAP apps with Fiori UI
+
+---
+
+## SAP AI Use Cases by Category
+
+> 150+ real-world AI applications across the SAP ecosystem — organized by business domain.
+
+### Procurement & Supply Chain
+
+*   [Intelligent Procurement Assistant](https://github.com/SAP-samples/sap-btp-ai-best-practices) — AI-powered procurement assistant with contract analysis on BTP (use-cases directory)
+*   [Touchless GR & Invoice Workflows](https://github.com/SAP-samples/sap-btp-ai-best-practices) — AI agent for touchless goods receipt and invoice processing
+*   [Vendor Selection Optimization](https://github.com/SAP-samples/sap-btp-ai-best-practices) — AI-based vendor evaluation and selection optimization
+*   [PO Management Agent (TechEd)](https://github.com/SAP-samples/teched2025-AI160) — Build an AI agent for purchase order management with LangGraph and Spring AI
+*   [Real-Time PO Insights with GenAI](https://github.com/SAP-samples/real-time-business-insights-with-genai) — Dynamic GenAI app for real-time purchase order and maintenance order insights
+*   [BTP Procurement Data Extractor](https://github.com/SAP-samples/btp-procurement-data-extractor) — Extract SAP Ariba data into BTP for procurement extensibility
+*   [Custom Joule Agent for Ariba SLP](https://community.sap.com/t5/spend-management-blog-posts-by-sap/custom-joule-agent-for-sap-ariba-slp-building-an-ai-agent-for-supplier/ba-p/14368044) — AI agent for supplier registration approval in SAP Ariba
+*   [Joule in SAP Ariba](https://community.sap.com/t5/spend-management-blog-posts-by-sap/joule-in-sap-ariba-applications/ba-p/14160181) — AI copilot for procurement navigation, supplier profiles, and approvals
+*   [GenAI Supply Chain Planning Assistant](https://community.sap.com/t5/technology-blog-posts-by-sap/smarter-supply-chains-a-generative-ai-use-case-powered-by-the-sap-hana/ba-p/13868379) — Deloitte's GenAI assistant powered by HANA Cloud Vector Engine for supply chain exception management
+*   [SAP Business AI for Procurement](https://www.sap.com/products/artificial-intelligence/procurement.html) — AI-powered sourcing, contract analysis, and supplier management
+*   [AI in Supply Chain Management](https://www.sap.com/resources/ai-in-supply-chain-management) — SAP's guide to AI use cases in supply chain with real examples
+
+### Finance & Accounting
+
+*   [Invoice Validation with DOX + CAP](https://github.com/SAP-samples/btp-cap-dox-invoice-validation) — Invoice validation on BTP using Document Information Extraction with SAP CAP
+*   [Customer Credit Check AI](https://github.com/SAP-samples/sap-btp-ai-best-practices) — AI-powered customer credit check use case on BTP
+*   [Cash Flow & Payment Delay Prediction](https://github.com/SAP-samples/teched2025-DA266) — Operationalizing AI with SAP Databricks for cashflow prediction and payment delay analysis
+*   [Invoice Object Recommendation](https://developers.sap.com/group.cp-aibus-dar-predict-invoice.html) — Use ML to predict G/L accounts and cost centers for incoming invoices
+*   [Expense Anomaly Detection (RealSpend)](https://community.sap.com/t5/technology-blog-posts-by-sap/machine-learning-behind-the-scenes-of-sap-realspend-an-expense-anomaly/ba-p/13379924) — ML algorithm detecting wrong bookings and fraud in expense management
+*   [AI-Powered Anomaly Insights in Integration Suite](https://community.sap.com/t5/integration-blog-posts/introducing-ai-powered-anomaly-insights-amp-recommendations-in-sap/ba-p/14286013) — AI anomaly detection and recommendations for API traffic
+*   [Intelligent Invoice Processing](https://community.sap.com/t5/technology-blog-posts-by-sap/intelligent-finance-invoice-processing-with-sap-ai-business-services/ba-p/13515923) — End-to-end intelligent invoice processing with SAP AI Business Services
+*   [Invoice Processing with Build Process Automation](https://developers.sap.com/mission.invoice-processing-approval-spa.html) — Mission: automate invoice processing and approval with Document Information Extraction
+*   [SAP Business AI for Finance](https://www.sap.com/products/artificial-intelligence/finance.html) — AI-powered financial close, cash management, and treasury
+*   [AI in S/4HANA Cloud Finance](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/artificial-intelligence-and-technologies-in-sap-s-4hana-cloud-public/ba-p/13596117) — AI technologies in S/4HANA Cloud Public Edition for financial insights and invoice matching
+
+### HR & Workforce Intelligence
+
+*   [Timesheet Tracking with GenAI](https://github.com/SAP-samples/btp-ai-core-simplifying-timesheet-tracking-task-in-s-4hana-cloud) — Full-stack CAP app using AI Core GenAI to simplify timesheet tracking in S/4HANA
+*   [SuccessFactors Extension on BTP](https://github.com/SAP-samples/cloud-sf-extension-cap-sample) — Reference app extending SuccessFactors with CAP on BTP
+*   [AI Payroll Anomaly Monitoring](https://community.sap.com/t5/human-capital-management-blog-posts-by-sap/ai-based-anomaly-monitoring-using-sap-payroll-control-center/ba-p/13965841) — ML algorithms detecting payroll discrepancies in SAP Payroll Control Center
+*   [Talent Intelligence Hub](https://community.sap.com/t5/human-capital-management-blog-posts-by-sap/talent-intelligence-hub-2024-updates-and-behind-the-scenes/bc-p/13751269) — AI-powered skills inference, learning recommendations, and workforce planning
+*   [AI for HR: Top Blogs 2026](https://community.sap.com/t5/human-capital-management-blog-posts-by-sap/ai-for-hr-top-blogs-2026/ba-p/14370281) — Curated collection of the best SAP AI for HR content
+*   [SuccessFactors AI Roadmap](https://community.sap.com/t5/human-capital-management-blog-posts-by-members/sap-successfactors-ai-roadmap-key-takeaways-from-successconnect-2024/ba-p/13928945) — Key AI takeaways from SuccessConnect 2024
+*   [SuccessFactors 2H 2025: AI & Skills](https://news.sap.com/2025/10/sap-successfactors-2h-2025-release-ai-skills-people-insights/) — AI-driven succession planning, skills-based recommendations, People Intelligence Agent
+*   [Generative AI Solves Skills Gap](https://news.sap.com/2023/05/sap-successfactors-helps-hr-solve-skills-gap-with-generative-ai/) — How SuccessFactors uses GenAI to close the skills gap
+*   [AI Learning & Talent Strategy](https://learning.sap.com/learning-journeys/configuring-sap-successfactors-platform-advanced-topics/sap-business-ai-capabilities-in-talent-intelligence-hub) — SAP Learning: Business AI capabilities in Talent Intelligence Hub
 
 ---
 
