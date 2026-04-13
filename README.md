@@ -26,8 +26,6 @@
   <img src="https://img.shields.io/badge/Mistral-FF7000?style=flat&logo=mistral&logoColor=white" alt="Mistral">
 </p>
 
----
-
 ## Why This Repo?
 
 *   There are dozens of amazing AI + SAP projects scattered across GitHub, SAP Community, YouTube, and blogs. Finding them is hard. **This repo brings them all together.**
@@ -35,8 +33,6 @@
 *   Whether you're building RAG pipelines on HANA Cloud, wiring up MCP servers for vibe coding, deploying agents with Joule Studio, or just trying to get started with AI on BTP - you'll find the best resources here.
 
 *   This repo includes **runnable SAP AI apps** you can clone and deploy, plus a **curated index** of the best external repos, tools, and resources.
-
----
 
 ## Table of Contents
 
@@ -53,20 +49,18 @@
 
 **Curated Directory** - Best resources across the ecosystem:
 
-- [Official SAP AI Tools & SDKs](#official-sap-ai-tools--sdks)
+- [Official SAP AI Tools and SDKs](#official-sap-ai-tools-and-sdks)
 - [MCP Servers for SAP](#mcp-servers-for-sap)
-- [AI Skills & Prompts for SAP](#ai-skills--prompts-for-sap)
-- [RAG & Knowledge Retrieval](#rag--knowledge-retrieval)
+- [AI Skills and Prompts for SAP](#ai-skills-and-prompts-for-sap)
+- [RAG and Knowledge Retrieval](#rag-and-knowledge-retrieval)
 - [AI Agents for SAP](#ai-agents-for-sap)
-- [LLM Apps & Demos](#llm-apps--demos)
-- [ABAP + AI](#abap--ai)
-- [Tutorials & Crash Courses](#tutorials--crash-courses)
+- [LLM Apps and Demos](#llm-apps-and-demos)
+- [ABAP and AI](#abap-and-ai)
+- [Tutorials and Crash Courses](#tutorials-and-crash-courses)
 - [SAP Community Content](#sap-community-content)
 - [Adjacent Tools](#adjacent-tools)
 - [Learning Path](#learning-path)
 - [Contributing](#contributing)
-
----
 
 ## Starter SAP AI Agents
 
@@ -85,26 +79,18 @@ streamlit run <project_name>.py
 
 > Want to add a project? See [CONTRIBUTING.md](CONTRIBUTING.md) - we welcome runnable SAP AI apps!
 
----
-
 ## Advanced SAP AI Agents
 
 *   [🎫 SAP Support Agent Team](advanced_sap_ai_agents/sap_support_agent_team/) - Three agents collaborate: Classifier triages tickets, Resolver provides fixes with transaction codes, Escalation Manager handles critical issues
 *   [📊 SAP Data Analyst Agent](advanced_sap_ai_agents/sap_data_analyst_agent/) - Ask questions about your SAP data in plain English - generates HANA SQL, runs it, and visualizes results
 
----
-
 ## RAG on SAP
 
 *   [🗄️ SAP HANA RAG Agent](rag_sap_tutorials/sap_hana_rag/) - Upload documents, embed and store in HANA Cloud Vector Engine, then ask questions with grounded answers and source citations
 
----
-
 ## MCP SAP Agents
 
 *   [🔌 SAP MCP Dev Agent](mcp_sap_agents/sap_mcp_dev_agent/) - AI dev assistant combining CAP, Fiori, and UI5 MCP server knowledge - get code examples with correct file paths and best practices
-
----
 
 ## Shoutouts to the SAP AI Community
 
@@ -130,7 +116,7 @@ streamlit run <project_name>.py
 *   **Lik Wei Tan** ([likweitan](https://github.com/likweitan)) - Community-maintained visual directory of official SAP MCP servers
 *   **Marcello Urbani** ([marcellourbani](https://github.com/marcellourbani)) - vscode_abap_remote_fs for remote ABAP development with AI tooling
 
-### Communities & Teams
+### Communities and Teams
 
 *   **[SAP-samples](https://github.com/SAP-samples)** - The official SAP team publishing open-source GenAI samples, CodeJams, and reference architectures
 *   **[cap-js](https://github.com/cap-js)** - CAP Node.js ecosystem, including the official CAP MCP Server
@@ -140,11 +126,9 @@ streamlit run <project_name>.py
 
 > Want to be listed? Open a PR with a link to your SAP AI work - we love celebrating community contributions.
 
----
+## Official SAP AI Tools and SDKs
 
-## Official SAP AI Tools & SDKs
-
-### SAP AI Core & Generative AI Hub
+### SAP AI Core and Generative AI Hub
 
 *   [SAP AI Core Documentation](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core) - Central service for deploying and managing AI models on SAP BTP
 *   [SAP AI Launchpad](https://help.sap.com/docs/ai-launchpad) - Cockpit for managing, monitoring, and orchestrating generative AI scenarios on BTP
@@ -156,7 +140,7 @@ streamlit run <project_name>.py
 *   [SAP Cloud SDK for AI (Java)](https://github.com/SAP/ai-sdk-java) - Official SDK for integrating chat completion and AI capabilities into Java apps
 *   [SAP Cloud SDK for AI Docs](https://sap.github.io/ai-sdk/) - Documentation portal covering both JS and Java SDKs with RAG and Business AI features
 
-### CAP LLM Plugin & GenAI Toolkit
+### CAP LLM Plugin and GenAI Toolkit
 
 *   [SAP/cap-llm-plugin](https://github.com/SAP/cap-llm-plugin) - CAP plugin for building GenAI apps with HANA Cloud Vector Engine and AI Core integration
 *   [Generative AI Toolkit for HANA Cloud](https://github.com/SAP/generative-ai-toolkit-for-sap-hana-cloud) - Extension of HANA ML Python client for GenAI use cases and HANA Vector Engine
@@ -166,8 +150,6 @@ streamlit run <project_name>.py
 *   [SAP Joule](https://www.sap.com/products/artificial-intelligence/ai-assistant.html) - SAP's AI copilot embedded across the SAP portfolio
 *   [Joule for Developers](https://www.sap.com/products/artificial-intelligence/joule-for-developers.html) - SAP's AI copilot for developers across SAP Build and ABAP (free until Sept 2026)
 *   [Joule Studio](https://help.sap.com/docs/joule) - No-code/low-code agent builder for creating custom AI agents on SAP BTP
-
----
 
 ## MCP Servers for SAP
 
@@ -202,17 +184,13 @@ streamlit run <project_name>.py
 
 > For the most comprehensive and up-to-date list of SAP MCP servers, see [marianfoo/sap-ai-mcp-servers](https://github.com/marianfoo/sap-ai-mcp-servers)
 
----
-
-## AI Skills & Prompts for SAP
+## AI Skills and Prompts for SAP
 
 *   [secondsky/sap-skills](https://github.com/secondsky/sap-skills) - 35 production-ready Claude Code skills covering BTP, CAP, Fiori, ABAP, HANA, Analytics Cloud, and more
 *   [weiserman/rap-skills](https://github.com/weiserman/rap-skills) - Claude Code skills for SAP RAP development with branch-per-scenario for BTP, S/4HANA Cloud, and on-premise
 *   [michal-majer/sap-cap-fiori-ai-agents](https://github.com/michal-majer/sap-cap-fiori-ai-agents) - AI agents for building enterprise SAP CAP and Fiori applications with guided end-to-end development
 
----
-
-## RAG & Knowledge Retrieval
+## RAG and Knowledge Retrieval
 
 *   [SAP-samples/btp-cap-genai-rag](https://github.com/SAP-samples/btp-cap-genai-rag) - GenAI samples on BTP with LangChain in CAP, single/multitenant RAG, and LLM integration via AI Core
 *   [SAP-samples/cap-ai-vector-engine-sample](https://github.com/SAP-samples/cap-ai-vector-engine-sample) - CAP app using CAP-LLM-Plugin for vector embeddings, similarity search, and RAG with HANA Cloud
@@ -223,8 +201,6 @@ streamlit run <project_name>.py
 *   [SAP-samples/cap-llm-plugin-samples](https://github.com/SAP-samples/cap-llm-plugin-samples) - CAP LLM Plugin samples with data anonymization and vector embeddings
 *   [HANA Cloud Vector Engine Guide](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-vector-engine-guide/sap-hana-cloud-sap-hana-database-vector-engine-guide) - Official documentation for SAP HANA Cloud Vector Engine
 
----
-
 ## AI Agents for SAP
 
 *   [SAP-samples/btp-agentic-ai-use-cases](https://github.com/SAP-samples/btp-agentic-ai-use-cases) - Custom industry AI agents using Joule Studio (LCNC), Joule Studio Code Editor (low-code), and SAP Cloud SDK for AI (pro-code)
@@ -234,9 +210,7 @@ streamlit run <project_name>.py
 *   [michal-majer/sap-cap-fiori-ai-agents](https://github.com/michal-majer/sap-cap-fiori-ai-agents) - Multi-agent orchestrator for SAP CAP + Fiori application development
 *   [SAP-samples/cloud-cap-vibe-with-cline](https://github.com/SAP-samples/cloud-cap-vibe-with-cline) - Vibe coding with Cline + SAP AI Core to build CAP apps with Fiori UI
 
----
-
-## LLM Apps & Demos
+## LLM Apps and Demos
 
 *   [mikezaschka/cap-ui5-gpt-chat](https://github.com/mikezaschka/cap-ui5-gpt-chat) - ChatGPT-like chat app built with SAP CAP and SAPUI5, deployable to BTP Cloud Foundry on Trial/Free Tier
 *   [anselm94/blog-sap-fiori-genaihub-llm-integration](https://github.com/anselm94/blog-sap-fiori-genaihub-llm-integration) - Fiori apps (SAPUI5, OpenUI5, Fiori Elements, FPM) integrated with SAP Business AI LLMs - no backend required
@@ -249,11 +223,9 @@ streamlit run <project_name>.py
 *   [YatseaLi/open-webui-ai-core](https://github.com/YatseaLi/open-webui-ai-core) - Open WebUI adapted for SAP AI Core with local RAG, model builder, and Python function calling
 *   [SAP-samples/aicore-genai-samples](https://github.com/SAP-samples/aicore-genai-samples) - Sample applications demonstrating practical SAP AI Core and GenAI Hub usage with prompt optimization
 
----
+## ABAP and AI
 
-## ABAP + AI
-
-### Benchmarks & Research
+### Benchmarks and Research
 
 *   [marianfoo/LLM-Benchmark-ABAP-Code-Generation](https://github.com/marianfoo/LLM-Benchmark-ABAP-Code-Generation) - Benchmark comparing LLMs for ABAP code generation with live results at [abap-llm-benchmark.marianzeis.de](https://abap-llm-benchmark.marianzeis.de)
 *   [timkoehne/LLM-Benchmark-ABAP-Code-Generation](https://github.com/timkoehne/LLM-Benchmark-ABAP-Code-Generation) - Original ABAP code generation benchmark from TH Koln with 180 tasks
@@ -268,7 +240,7 @@ streamlit run <project_name>.py
 
 *   [oisee/vibing-steampunk](https://github.com/oisee/vibing-steampunk) - ADT-to-MCP bridge giving AI full access to SAP ADT APIs - vibe code in ABAP/AMDP anywhere ADT is available
 
-### Hands-On & Tutorials
+### Hands-On and Tutorials
 
 *   [SAP-samples/abap-platform-rap120](https://github.com/SAP-samples/abap-platform-rap120) - Hands-on: Build Fiori Apps with Joule - predictive code completion and unit test generation for ABAP
 *   [ABAP AI 2026 Roadmap](https://community.sap.com/t5/technology-blog-posts-by-sap/our-2026-roadmap-for-joule-for-developers-abap-ai-capabilities/ba-p/14360358) - SAP's official 2026 roadmap for Joule, ABAP AI, and ABAP MCP server for VS Code
@@ -277,11 +249,9 @@ streamlit run <project_name>.py
 
 *   [saptechbites/GenerativeAI-with-SAP-ABAP](https://saptechbites.github.io/GenerativeAI-with-SAP-ABAP/) - Generative AI use cases for SAP ABAP and Clean Core
 
----
+## Tutorials and Crash Courses
 
-## Tutorials & Crash Courses
-
-### Official SAP CodeJams & Workshops
+### Official SAP CodeJams and Workshops
 
 *   [SAP-samples/generative-ai-codejam](https://github.com/SAP-samples/generative-ai-codejam) - CodeJam covering Generative AI Hub, RAG implementation, embeddings, and the Python SDK on SAP AI Core
 *   [SAP-samples/codejam-cap-llm](https://github.com/SAP-samples/codejam-cap-llm) - CodeJam for CAP + Generative AI Hub integration with hands-on exercises
@@ -300,8 +270,6 @@ streamlit run <project_name>.py
 ### Community Tutorials
 
 *   [SAP AI Certifications, Free Courses & Sample Projects (2025)](https://community.sap.com/t5/technology-blog-posts-by-sap/sap-ai-certifications-free-courses-sample-projects-and-many-more-2025/ba-p/13866605) - Comprehensive list of free courses, missions, and certifications for SAP AI
-
----
 
 ## SAP Community Content
 
@@ -327,8 +295,6 @@ streamlit run <project_name>.py
 
 > See the full [Shoutouts section](#shoutouts-to-the-sap-ai-community) above for community members building amazing things in SAP AI.
 
----
-
 ## Adjacent Tools
 
 *   [Context7 (upstash/context7)](https://github.com/upstash/context7) - MCP server that fetches up-to-date, version-specific code documentation directly into your LLM's context
@@ -337,8 +303,6 @@ streamlit run <project_name>.py
 *   [SAP's Official MCP Servers Directory](https://likweitan.github.io/sap-mcp-servers-official/) - Community-maintained visual directory of all official SAP MCP servers
 *   [serpro69/claude-toolbox](https://github.com/serpro69/claude-starter-kit) - Collection of tools for Claude Code workflows: pre-configured MCP servers, skills, sub-agents, and hooks
 *   [marcellourbani/vscode_abap_remote_fs](https://github.com/marcellourbani/vscode_abap_remote_fs) - VS Code extension for remote ABAP development - useful alongside AI coding tools
-
----
 
 ## Learning Path
 
@@ -359,7 +323,7 @@ If you're new to AI in SAP, here's a recommended path:
 1. Follow the [Generative AI CodeJam](https://github.com/SAP-samples/generative-ai-codejam) for hands-on RAG
 2. Try [CAP + LLM CodeJam](https://github.com/SAP-samples/codejam-cap-llm) for CAP integration
 3. Explore [RAG with HANA Cloud Vector Engine](https://github.com/SAP-samples/cap-ai-vector-engine-sample)
-4. Browse the [LLM Apps & Demos](#llm-apps--demos) section for runnable projects you can clone and deploy
+4. Browse the [LLM Apps and Demos](#llm-apps-and-demos) section for runnable projects you can clone and deploy
 
 **Step 4: Go Deeper**
 1. Build custom agents with [Joule Studio](https://help.sap.com/docs/joule) or [SAP Cloud SDK for AI](https://github.com/SAP/ai-sdk-js)
@@ -375,13 +339,9 @@ If you're new to AI in SAP, here's a recommended path:
 | **IDE** | VS Code, Cursor, or any MCP-compatible editor |
 | **AI Assistant** | Claude Code, GitHub Copilot, Cursor, or similar |
 
----
-
 ## Contributing
 
 We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add resources to this directory.
-
----
 
 <p align="center">
   If you found this useful, please <b>star this repo</b> and share it with the SAP community!
