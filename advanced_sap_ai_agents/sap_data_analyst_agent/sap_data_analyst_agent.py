@@ -1,6 +1,6 @@
 """
 📊 SAP Data Analyst Agent
-Ask questions about your SAP data in plain English — generates SQL, runs it on HANA, and visualizes results.
+Ask questions about your SAP data in plain English - generates SQL, runs it on HANA, and visualizes results.
 Built with Streamlit + SAP generative-ai-hub-sdk + hdbcli.
 """
 
@@ -13,7 +13,7 @@ import json
 
 st.set_page_config(page_title="SAP Data Analyst", page_icon="📊", layout="wide")
 st.title("📊 SAP Data Analyst Agent")
-st.caption("Ask questions about your SAP data in natural language — get SQL, results, and insights")
+st.caption("Ask questions about your SAP data in natural language - get SQL, results, and insights")
 
 
 @st.cache_resource
@@ -47,7 +47,7 @@ def get_schema_info(_conn, schema):
 SYSTEM_PROMPT = """You are an SAP HANA SQL expert. Given a natural language question and database schema, generate a SELECT query.
 
 Rules:
-- Generate ONLY read-only SELECT statements — never INSERT, UPDATE, DELETE, DROP, or ALTER
+- Generate ONLY read-only SELECT statements - never INSERT, UPDATE, DELETE, DROP, or ALTER
 - Use SAP HANA SQL syntax (e.g., TOP instead of LIMIT for row limiting)
 - Use column aliases for readability
 - Include ORDER BY for sorted results

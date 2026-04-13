@@ -6,7 +6,7 @@ Chat with your SAP purchase order data using natural language. Ask questions lik
 
 - Natural language chat interface for SAP purchase order data
 - Spending analysis, vendor breakdowns, and status summaries
-- Conversational memory — ask follow-up questions naturally
+- Conversational memory - ask follow-up questions naturally
 - Powered by SAP AI Core via the generative-ai-hub-sdk
 - Sidebar with live data preview
 
@@ -54,5 +54,5 @@ po_data = response.json()["d"]["results"]
 
 ### Tech Stack
 
-- [Streamlit](https://streamlit.io/) — Chat UI
-- [SAP generative-ai-hub-sdk](https://pypi.org/project/generative-ai-hub-sdk/) — LLM access via SAP AI Core
+- [Streamlit](https://streamlit.io/) - Chat UI
+- [SAP generative-ai-hub-sdk](https://pypi.org/project/generative-ai-hub-sdk/) - LLM access via SAP AI Core

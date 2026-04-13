@@ -4,9 +4,9 @@ Three AI agents collaborate to handle SAP support tickets: a Classifier triages 
 
 ### Features
 
-- **Agent 1 — Classifier**: Identifies SAP module, severity, category, and escalation need
-- **Agent 2 — Resolver**: Provides root cause analysis, resolution steps with transaction codes, and preventive measures
-- **Agent 3 — Escalation Manager**: Activates on CRITICAL tickets with impact assessment and SLA recommendations
+- **Agent 1 - Classifier**: Identifies SAP module, severity, category, and escalation need
+- **Agent 2 - Resolver**: Provides root cause analysis, resolution steps with transaction codes, and preventive measures
+- **Agent 3 - Escalation Manager**: Activates on CRITICAL tickets with impact assessment and SLA recommendations
 - 4 built-in sample tickets (authorization, HANA performance, Fiori app error, data reconciliation)
 - Multi-agent pipeline with conditional escalation logic
 
@@ -39,5 +39,5 @@ Three AI agents collaborate to handle SAP support tickets: a Classifier triages 
 
 ### Tech Stack
 
-- [Streamlit](https://streamlit.io/) — Web UI
-- [SAP generative-ai-hub-sdk](https://pypi.org/project/generative-ai-hub-sdk/) — LLM access via SAP AI Core
+- [Streamlit](https://streamlit.io/) - Web UI
+- [SAP generative-ai-hub-sdk](https://pypi.org/project/generative-ai-hub-sdk/) - LLM access via SAP AI Core

@@ -38,6 +38,6 @@ Upload any SAP document (PDF or text) and get an AI-powered summary using SAP Ge
 
 ### Tech Stack
 
-- [Streamlit](https://streamlit.io/) — Web UI
-- [SAP generative-ai-hub-sdk](https://pypi.org/project/generative-ai-hub-sdk/) — LLM access via SAP AI Core
-- [PyPDF2](https://pypi.org/project/PyPDF2/) — PDF text extraction
+- [Streamlit](https://streamlit.io/) - Web UI
+- [SAP generative-ai-hub-sdk](https://pypi.org/project/generative-ai-hub-sdk/) - LLM access via SAP AI Core
+- [PyPDF2](https://pypi.org/project/PyPDF2/) - PDF text extraction

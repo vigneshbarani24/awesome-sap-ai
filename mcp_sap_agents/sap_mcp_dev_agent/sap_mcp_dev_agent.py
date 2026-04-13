@@ -11,22 +11,22 @@ import json
 
 st.set_page_config(page_title="SAP MCP Dev Agent", page_icon="🔌", layout="wide")
 st.title("🔌 SAP MCP Development Agent")
-st.caption("AI assistant powered by SAP MCP servers — ask about CAP, Fiori, or UI5 development")
+st.caption("AI assistant powered by SAP MCP servers - ask about CAP, Fiori, or UI5 development")
 
 # --- MCP Server Registry ---
 MCP_SERVERS = {
     "CAP": {
-        "description": "SAP Cloud Application Programming Model — data models, services, CDS, Node.js/Java runtime",
+        "description": "SAP Cloud Application Programming Model - data models, services, CDS, Node.js/Java runtime",
         "package": "@cap-js/mcp-server",
         "topics": ["CDS", "entities", "services", "projections", "annotations", "handlers", "Node.js", "Java", "OData", "REST"],
     },
     "Fiori": {
-        "description": "SAP Fiori elements — UI generation, adaptation, OPA tests, manifest.json, annotations",
+        "description": "SAP Fiori elements - UI generation, adaptation, OPA tests, manifest.json, annotations",
         "package": "@sap-ux/fiori-mcp-server",
         "topics": ["Fiori elements", "List Report", "Object Page", "annotations", "manifest.json", "OPA5", "adaptation"],
     },
     "UI5": {
-        "description": "SAPUI5 and OpenUI5 — controls, views, controllers, routing, i18n, custom apps",
+        "description": "SAPUI5 and OpenUI5 - controls, views, controllers, routing, i18n, custom apps",
         "package": "@niclas.krohne/ui5-mcp-server",
         "topics": ["SAPUI5", "OpenUI5", "controls", "XML views", "controllers", "routing", "models", "binding", "fragments"],
     },

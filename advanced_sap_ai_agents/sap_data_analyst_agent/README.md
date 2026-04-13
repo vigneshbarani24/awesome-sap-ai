@@ -1,6 +1,6 @@
 ## 📊 SAP Data Analyst Agent
 
-Ask questions about your SAP data in plain English. The agent generates HANA SQL, executes it, and visualizes the results — all through a chat-like interface.
+Ask questions about your SAP data in plain English. The agent generates HANA SQL, executes it, and visualizes the results - all through a chat-like interface.
 
 ### Features
 
@@ -48,7 +48,7 @@ Ask questions about your SAP data in plain English. The agent generates HANA SQL
 
 ### Tech Stack
 
-- [Streamlit](https://streamlit.io/) — Web UI
-- [SAP generative-ai-hub-sdk](https://pypi.org/project/generative-ai-hub-sdk/) — LLM access via SAP AI Core
-- [hdbcli](https://pypi.org/project/hdbcli/) — SAP HANA Cloud client
-- [Pandas](https://pandas.pydata.org/) — Data manipulation and display
+- [Streamlit](https://streamlit.io/) - Web UI
+- [SAP generative-ai-hub-sdk](https://pypi.org/project/generative-ai-hub-sdk/) - LLM access via SAP AI Core
+- [hdbcli](https://pypi.org/project/hdbcli/) - SAP HANA Cloud client
+- [Pandas](https://pandas.pydata.org/) - Data manipulation and display

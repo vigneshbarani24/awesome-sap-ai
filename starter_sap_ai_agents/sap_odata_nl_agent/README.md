@@ -50,5 +50,5 @@ ODATA_SERVICES["Cost Centers"] = {
 
 ### Tech Stack
 
-- [Streamlit](https://streamlit.io/) — Web UI
-- [SAP generative-ai-hub-sdk](https://pypi.org/project/generative-ai-hub-sdk/) — LLM access via SAP AI Core
+- [Streamlit](https://streamlit.io/) - Web UI
+- [SAP generative-ai-hub-sdk](https://pypi.org/project/generative-ai-hub-sdk/) - LLM access via SAP AI Core

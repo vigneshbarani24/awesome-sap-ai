@@ -53,8 +53,8 @@ For the full experience, install these MCP servers in your IDE (VS Code, Cursor,
 
 ### Tech Stack
 
-- [Streamlit](https://streamlit.io/) — Chat UI
-- [SAP generative-ai-hub-sdk](https://pypi.org/project/generative-ai-hub-sdk/) — LLM access via SAP AI Core
-- [CAP MCP Server](https://github.com/cap-js/mcp-server) — CAP knowledge
-- [Fiori MCP Server](https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server) — Fiori elements knowledge
-- [UI5 MCP Server](https://github.com/UI5/mcp-server) — UI5 knowledge
+- [Streamlit](https://streamlit.io/) - Chat UI
+- [SAP generative-ai-hub-sdk](https://pypi.org/project/generative-ai-hub-sdk/) - LLM access via SAP AI Core
+- [CAP MCP Server](https://github.com/cap-js/mcp-server) - CAP knowledge
+- [Fiori MCP Server](https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server) - Fiori elements knowledge
+- [UI5 MCP Server](https://github.com/UI5/mcp-server) - UI5 knowledge

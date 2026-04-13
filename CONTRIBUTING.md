@@ -9,7 +9,7 @@ Thanks for your interest in contributing! This is a community-driven directory, 
 1. Go to [Issues](https://github.com/vigneshbarani24/awesome-sap-ai/issues/new/choose)
 2. Select the **Add Resource** template
 3. Fill in the details about the resource you'd like to add
-4. Submit — we'll review and add it
+4. Submit - we'll review and add it
 
 ### Option 2: Submit a Pull Request
 
@@ -40,11 +40,11 @@ Thanks for your interest in contributing! This is a community-driven directory, 
 Follow the existing format:
 
 ```markdown
-*   [Resource Name](https://link-to-resource) — One-line description of what it does
+*   [Resource Name](https://link-to-resource) - One-line description of what it does
 ```
 
 - Keep descriptions to **one line**
-- Use an em dash (`—`) to separate the name from the description
+- Use a hyphen (`-`) to separate the name from the description
 - Place entries in the **correct category**
 - Link to the primary source (GitHub repo > npm package > blog post)
 

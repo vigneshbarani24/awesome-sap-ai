@@ -12,7 +12,7 @@ st.set_page_config(page_title="SAP PO Chatbot", page_icon="🛒")
 st.title("🛒 SAP Purchase Order Chatbot")
 st.caption("Chat with your SAP purchase order data using natural language")
 
-# Sample PO data — in production, replace with OData call to SAP S/4HANA
+# Sample PO data - in production, replace with OData call to SAP S/4HANA
 # e.g., GET /sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrder
 SAMPLE_PO_DATA = [
     {
@@ -75,7 +75,7 @@ SAMPLE_PO_DATA = [
 with st.sidebar:
     st.header("📋 PO Data")
     st.dataframe(SAMPLE_PO_DATA, use_container_width=True)
-    st.caption("Sample data — replace with live OData in production")
+    st.caption("Sample data - replace with live OData in production")
 
 SYSTEM_PROMPT = f"""You are an SAP procurement assistant. Answer questions about purchase orders based on this data:
 

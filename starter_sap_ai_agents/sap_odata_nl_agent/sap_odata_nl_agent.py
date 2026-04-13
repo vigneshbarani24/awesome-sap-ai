@@ -10,7 +10,7 @@ import json
 
 st.set_page_config(page_title="SAP OData NL Agent", page_icon="🔍")
 st.title("🔍 SAP OData Natural Language Agent")
-st.caption("Describe what you need in plain English — get OData queries for SAP")
+st.caption("Describe what you need in plain English - get OData queries for SAP")
 
 ODATA_SERVICES = {
     "Purchase Orders": {

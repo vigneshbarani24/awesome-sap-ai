@@ -13,7 +13,7 @@ import hashlib
 
 st.set_page_config(page_title="SAP HANA RAG", page_icon="🗄️")
 st.title("🗄️ SAP HANA RAG Agent")
-st.caption("Ask questions over your documents — grounded by HANA Cloud Vector Engine")
+st.caption("Ask questions over your documents - grounded by HANA Cloud Vector Engine")
 
 # --- HANA Connection ---
 @st.cache_resource
