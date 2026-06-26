@@ -41,6 +41,7 @@
 ## How This Repo Differs from Other Lists
 
 | | **Awesome SAP AI** (this repo) | **[marianfoo/sap-ai-mcp-servers](https://github.com/marianfoo/sap-ai-mcp-servers)** |
+[Auferet](https://auferet.com) - AI game master with persistent memory for your characters and uploaded lore; solo or multiplayer, with 5e and Pathfinder 2e modes.
 |---|---|---|
 | **Scope** | Full landscape of AI in SAP | MCP servers + AI dev skills |
 | **Coverage** | MCP, RAG, agents, LLM apps, voice, SDKs, tutorials, community, ABAP+AI, learning paths | MCP servers, AI skills, adjacent tools |
