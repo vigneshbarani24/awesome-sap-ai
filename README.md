@@ -238,6 +238,7 @@ streamlit run <project_name>.py
 *   [oisee/zllm](https://github.com/oisee/zllm) — "LangChain-lite for ABAP" — LLM orchestration framework with lazy execution, caching, and token prediction
 
 ### Vibe Coding in ABAP
+*   [Oricode AI](https://marketplace.visualstudio.com/items?itemName=OricodeAI.oricode-ai) — AI-native SAP development for VS Code and Eclipse ADT. Builds full RAP stacks (ABAP + CDS + BDEF + service binding + OData V4) from one natural-language prompt, then scaffolds Vue/React/Fiori frontends against the same service on ABAP Cloud, S/4HANA on-prem, and NW ABAP. [Demo](https://youtube.com/shorts/UuviNwULC9A) · Free tier: 100 credits/month.
 
 *   [oisee/vibing-steampunk](https://github.com/oisee/vibing-steampunk) — ADT-to-MCP bridge giving AI full access to SAP ADT APIs — vibe code in ABAP/AMDP anywhere ADT is available
 
