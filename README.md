@@ -151,6 +151,7 @@ streamlit run <project_name>.py
 *   [UI5 MCP Server](https://github.com/UI5/mcp-server) — Comprehensive UI5 knowledge for AI agents: app scaffolding, linting, API docs, and guidelines
 *   [UI5 Web Components MCP Server](https://github.com/UI5/webcomponents-mcp-server) — AI-assisted development with UI5 Web Components across React, Angular, Vue, and vanilla JS
 *   [MDK MCP Server](https://github.com/SAP/mdk-mcp-server) — AI-assisted development of cross-platform mobile apps with SAP Mobile Development Kit
+* [Mode VC LLM Inference Cost Calculator](https://modevc.com/tools/llm-inference-calculator) — Free browser-side LLM token unit economics, prompt caching, and gross margin calculator across 8 frontier and open-weights models.
 
 ### Community MCP Servers
 
