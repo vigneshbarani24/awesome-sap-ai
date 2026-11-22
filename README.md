@@ -172,6 +172,7 @@ streamlit run <project_name>.py
 *   [secondsky/mcp-sap-bdc](https://github.com/secondsky) — MCP server for SAP Business Data Cloud with Delta Sharing and data product tools
 *   [MarioDeFelipe/sap-datasphere-plugin-for-claude](https://github.com/MarioDeFelipe/sap-datasphere-plugin-for-claude-cowork) — SAP Datasphere analytics operations via Claude
 *   [AWS ABAP Accelerator for Amazon Q](https://github.com/aws-solutions-library-samples/guidance-for-deploying-sap-abap-accelerator-for-amazon-q-developer) — Enterprise MCP server for SAP ABAP development with Amazon Q Developer
+*   [syntheticcfo/syntheticcfo](https://github.com/syntheticcfo/syntheticcfo) — Synthetic SAP ECC and S/4HANA test data with labelled fraud schemes and a ground-truth answer key, via MCP (MIT client, free plan on the hosted engine, no SAP system needed)
 
 > For the most comprehensive and up-to-date list of SAP MCP servers, see [marianfoo/sap-ai-mcp-servers](https://github.com/marianfoo/sap-ai-mcp-servers)
 
